@@ -1,0 +1,21 @@
+{
+	"nav": {
+		"home": "home",
+		"biography": "biography",
+		"repetuar": "repertoire",
+		"dates": "dates",
+		"press": "press",
+		"photos": "photos",
+		"recordings": "recordings",
+		"contact": "contact"
+	},
+
+	"home": {
+		"mezosoprano":"mezzo-soprano"
+	},
+	
+	"bio": {
+		"name": "Joanna",
+		"surname" : "Bortel"
+	}
+}

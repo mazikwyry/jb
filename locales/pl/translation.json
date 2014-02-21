@@ -1,0 +1,14 @@
+{
+	"nav": {
+		"biography": "biografia",
+		"repetuar": "repetuar",
+		"photos": "zdjecia",
+		"dates": "terminy",
+		"contact": "kontact"
+	},
+
+	"bio": {
+		"name": "Joanna",
+		"surname" : "Bortel"
+	}
+}
