@@ -1,102 +1,55 @@
-var current_page = "homepage";
-var	page_title = ""; 
-var filename = "";
 
-$(document).ready(function() {
+    function load_trans(){
+      $('[data-trans]').each(function() {
+        $(this).text($.t($(this).data('trans')));
+      });
+    }
 
-	$.ajax({
-	  url: "home.html",
-	  cache: false
-	}).done(function( html ) {
-	  $( ".main .content" ).html(html);
-	});
-	
-	$("header nav li").click(function(event) {
-		$("header nav li").removeClass('current');
-		$(this).addClass('current');
-		page_title = $(this).html();
-		filename = $(this).data("rel");
-		if(current_page=="homepage"){
-			fromHomepage();
-			current_page = page_title;
-		}
-		else
-			fromSubpage();
+    function listenWidth(){     
+      $("section").css("height", $(window).height()+"px");
+    }
 
-	});
+	  $.i18n.init({
+      lng: 'en',
+      debug: true
+    }, function() {
+      load_trans();
+    });
 
-	$(".logo").click(function() {
-		$("header nav li").removeClass('current');
-		$( ".main .content" ).animate({opacity: "0"}, { duration: 200, queue: true });
-		$('.hero').slideDown(300);
-		$('.circle img').show();
-		$('.circle .page-title').hide();
-		setTimeout(function(){
-			$('.circle').css("left","0px").animate({
-			opacity: "1"}, { duration: 200, queue: false });
-			$.ajax({
-			  url: "home.html",
-			  cache: false
-			}).done(function( html ) {
-			  $( ".main .content" ).html(html);
-			});
-		},300);
-		setTimeout(function(){
-			$('.hero .container').slideDown(500).animate({
-				opacity: "1", top: "0px"}, { duration: 200, queue: false });
-			$( ".main .content" ).animate({opacity: "1"}, { duration: 100, queue: true });
-		},1000);
-		current_page = "homepage";
-	});
+   $(document).ready(function($) {
+    $("[data-lang]").click(function(event) {
+      i18n.setLng($(this).data('lang'), function(t) {
+        load_trans();
+       });
+    });
 
-	
-	function fromHomepage() {
-		$('.hero .container').slideUp(1000).animate({
-			opacity: "0", top: "-20px"}, { duration: 500, queue: false });
-		$( ".main .content" ).animate({opacity: "0"}, { duration: 200, queue: true });
-		$('.circle .page-title').html(page_title);
-		$('.circle img').fadeOut(1000);
-		$('.circle .page-title').fadeIn(1500);
-		setTimeout(function(){
-			$('.circle').animate({
-			opacity: "0"}, { duration: 100, queue: false }).animate({
-			left: "-400px"}, { duration: 200, queue: false });
-			$.ajax({
-			  url: filename+".html",
-			  cache: false
-			}).done(function( html ) {
-			  $( ".main .content" ).html(html);
-			});
-		},2000);
-		setTimeout(function(){
-			$('.hero').slideUp(200);
-			$( ".main .content" ).animate({opacity: "1"}, { duration: 200, queue: true });
-		},2600);
-	};
+    listenWidth();
+    $(document).load($(window).bind("resize", listenWidth));
 
-	function fromSubpage() {
-		$('.hero').slideDown(300);
-		$( ".main .content" ).animate({opacity: "0"}, { duration: 200, queue: true });
-		$('.circle .page-title').html(page_title);
-		setTimeout(function(){
-			$('.circle').css("left","0px").animate({
-			opacity: "1"}, { duration: 200, queue: false });
-			$.ajax({
-			  url: filename+".html",
-			  cache: false
-			}).done(function( html ) {
-			  $( ".main .content" ).html(html);
-			});
-		},300);
-		setTimeout(function(){
-			$('.circle').animate({
-			opacity: "0"}, { duration: 100, queue: false }).animate({
-			left: "-400px"}, { duration: 200, queue: false });
-		},2000);
-		setTimeout(function(){
-			$('.hero').slideUp(200);
-			$( ".main .content" ).animate({opacity: "1"}, { duration: 200, queue: true });
-		},2500);
-	};
+    $('nav li').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'rel') ).offset().top
+        }, 500);
+        return false;
+    });
 
-});
+    function parallaxScroll(){
+        var scrolled = $(window).scrollTop();
+        var section_height = $(window).height();
+
+        if((scrolled > (section_height-100)) && (scrolled < (1.5*section_height)))
+        	$('.bg').addClass('visible');
+        else if (scrolled > (1.5*section_height) || scrolled < (section_height-100))
+        	$('.bg').removeClass('visible');
+
+        if((scrolled > (2*section_height-100)) && (scrolled < (2.5*section_height)))
+        	$('.bg_r').addClass('visible');
+        else if (scrolled > (2.5*section_height) || scrolled < (2*section_height-100))
+        	$('.bg_r').removeClass('visible');
+    }
+
+    $(window).bind('scroll',function(e){ 
+        parallaxScroll();
+    });
+
+   });
