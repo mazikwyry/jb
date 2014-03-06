@@ -19,6 +19,7 @@
     <script src="js/less.js" type="text/javascript"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/i18next-1.7.1.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/scrollingcarousel.2.0.min.js"></script>
     <script src="js/js.js" type="text/javascript"></script>
   </head>
   <body>
@@ -219,6 +220,32 @@
         </div>
       </div>
       <div class="cl"></div>
+    </section>
+
+    <section class="photos subpage no-padding" id="photos">
+      <div class="photo-box" id="carousel">
+        <div class="wrapper active-cat" id="personal">
+          <img src="photos/001.jpg" alt="">
+          <img src="photos/003.jpg" alt="">
+          <img src="photos/006.jpg" alt="">
+          <img src="photos/007.jpg" alt="">
+          <img src="photos/009.jpg" alt="">
+          <img src="photos/015.jpg" alt="">
+        </div>
+        <div class="wrapper" id="performance" style="display:none;">
+          <img src="photos/015.jpg" alt="">
+          <img src="photos/009.jpg" alt="">
+          <img src="photos/015.jpg" alt="">
+        </div>
+      </div>
+      <div class="direction left_d"></div>
+      <div class="direction right_d"></div>
+      <h1>
+        <span data-trans="nav.photos"></span> 
+        <div>
+          <span class="photo-cat" data-rel="personal">Personal</span> | 
+          <span class="photo-cat" data-rel="performance">Performance</span></div>
+      </h1>
     </section>
 
   </body>

@@ -181,6 +181,7 @@ section{
 		text-align: left;
 	}
 
+
 	&.repetuar{
 		padding-left: 3%;
 		h2{
@@ -260,6 +261,27 @@ section{
 		}
 	}
 
+	&.photos{
+		overflow: hidden;
+		h1{
+			position: absolute;
+			bottom:0px;
+			left: 3%;
+			div{
+				.lato();
+				font-size: 2.0rem;
+				text-transform: uppercase;
+				font-weight: 300;
+				display: inline-block;
+				position: relative;
+				text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+				span{
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
 	h1{
 		font-size: 9.0rem;
 		.great();
@@ -308,6 +330,33 @@ section{
 	}
 }
 
+.photo-box{
+	overflow: visible;
+	position: absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	width: 10000px;
+	div{
+		display: inline-block;
+		height: 100%;
+		img{
+			height: 100%;
+		}
+	}
+	.wrapper{
+		position: absolute;
+	}
+}
+
+.direction{
+    position:absolute;
+    width:50%;
+    height:100%;
+}
+.left_d{left:0;top:0;}
+.right_d{right:0;top:0;}
+
 .half-box{
 	width: 50%;
 	.box-sizing();
@@ -327,7 +376,8 @@ section{
 .left{float:left;}
 .right{float:rigth;}
 .cl{clear: both; width: 100%;}
-.padding5{padding: 0 5%;}
+.padding5{padding: 0 5% 0 0; }
+.hidden{display: none;}
 
 @media screen and (max-width: 800px),
 screen and (-webkit-min-device-pixel-ratio: 2) and (max-width : 800px) {
