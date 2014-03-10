@@ -33,6 +33,18 @@
         return false;
     });
 
+    $('.play').click(function(event) {
+      var mediaElement = $('#ave')[0];
+      mediaElement.play();
+      setInterval(function () {
+        var procent_progress = mediaElement.currentTime / mediaElement.duration * 100;
+        $('.progress').css("width", procent_progress + "%");
+      },200);
+    });
+
+    $('.pause').click(function(event) {
+      $('#ave')[0].pause();
+    });
 
     function parallaxScroll(){
         var scrolled = $(window).scrollTop();
