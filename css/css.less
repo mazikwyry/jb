@@ -138,6 +138,10 @@ nav{
 	}
 }
 
+.sections{
+	position: relative;	
+}
+
 section{
 	width: 100%;
 	position: relative;
@@ -267,7 +271,8 @@ section{
 			position: absolute;
 			bottom:0px;
 			left: 3%;
-			div{
+			width: 50%;
+			.cats{
 				.lato();
 				font-size: 2.0rem;
 				text-transform: uppercase;
@@ -283,25 +288,130 @@ section{
 	}
 
 	&.recordings{
+		h1{
+			margin-bottom: 20px;
+		}
 		.bio-box{
-			background-color: rgba(33,33,33,.7);
+			background-color: transparent;
+			.box-sizing();
 			.bio-icon{
-			width: 35%;	
-			padding: 0px 0;
-			position: relative;	
+				background-color: transparent;
+				max-width: 195px;
+				width:	35%;
+				padding: 0px 0;
+				position: relative;	
+				img{
+					width: 100%;
+					opacity: .7;
+				}
 			}
 			.bio-desc{
 				width: 65%;	
 				padding: 20px;
-				position: relative;
+				.box-sizing();
+				position: absolute;
+				top:0px;
+				bottom:3px;
+				right:0px;
+				background-color: rgba(255,255,255,.7);
+				color: @text;
+				text-transform: uppercase;
+				font-size: 2.2rem;
+				font-weight: 300;
 				.progress{
 					position: absolute;
 					top:0px;
 					bottom:0px;
 					left:0px;
 					width: 0%;
-					background-color: rgba(255,255,255,0.3);
+					background-color: rgba(33,33,33,0.2);
 				}
+			}
+		}
+	}
+
+	&.contact{
+		.cont{
+			width: 50%;
+		}
+		h1{
+			margin-bottom: 20px;
+		}
+		.bio-box{
+			background-color: transparent;
+			.box-sizing();
+			width: auto;
+			.bio-icon{
+				.red_alpha_bg(.9);
+				position: absolute;
+				top:0px;
+				bottom:0px;
+				width: 10%;
+				img{
+					width: 100%;
+				}
+			}
+			.bio-desc{	
+				width: auto;
+				float:left;
+				padding: 5px 10px;
+				padding-left: 12%;
+				.box-sizing();
+				background-color: rgba(255,255,255,.3);
+				color: @text;
+				font-size: 3.0rem;
+				font-weight: 300;
+				width: 100%;
+			}
+		}
+		.contact{
+			width: 98%;
+			margin: 30px 0 0 1%;
+			margin-top: 30px;
+			background-color: rgba(255,255,255,.3);
+			.box-sizing();
+			padding: 20px;
+			div{
+				position: relative;
+				&::after{
+					content: '';
+					position: absolute;
+					left:1px;
+					top:1px;
+					bottom: 1px;
+					width: 50px;
+					.red_alpha_bg(.9);
+			}
+			}
+			input,textarea{
+				width: 100%;
+				max-width: 100%;
+				padding: 10px;
+				padding-left: 60px;
+				background-color: rgba(255, 255, 255, 0.8);
+				.lato();
+				font-size: 2.0rem;
+				color: @text;
+				margin-bottom: 10px;
+				text-transform: uppercase;
+				border: 1px solid #FFF;
+				.box-sizing();
+				position: relative;
+				font-weight: 300;
+				display: block;
+				&[type="submit"]{
+					width: auto;
+					background-color: @red;
+					color:white;
+					padding: 10px;
+					border:0px;
+					position: absolute;
+					right:5px;
+					bottom:0px;
+				}
+			}
+			textarea{
+				height: 200px;
 			}
 		}
 	}
@@ -322,9 +432,40 @@ section{
 		}
 	}
 
+}
+
+.cont{
+	width: 100%;
+	max-width: 1200px;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: rgba(33, 33, 33, 0.7);
+	padding: 40px 0;
+	text-align: center;
 	.cont{
-		width: 100%;
-		max-width: 1200px;
+		margin: auto;
+		color:#fff;
+		.motto{
+			.great();
+			font-size:4.0rem;
+		}
+		.credits{
+			span{
+				display: inline-block;
+				text-align: center;
+				.lato();
+				font-size: 1.6rem;
+				text-transform: uppercase;
+				border-top: 1px solid #FFF;
+				padding-top: 10px;
+				width: auto;
+				font-weight: 300;
+			}
+		}
 	}
 }
 
@@ -402,6 +543,7 @@ section{
 .cl{clear: both; width: 100%;}
 .padding5{padding: 0 5% 0 0; }
 .hidden{display: none;}
+.red{color:@red;}
 
 @media screen and (max-width: 800px),
 screen and (-webkit-min-device-pixel-ratio: 2) and (max-width : 800px) {

@@ -33,17 +33,33 @@
         return false;
     });
 
-    $('.play').click(function(event) {
-      var mediaElement = $('#ave')[0];
+    $("body").on('click', '.play', function(event) {
+      $("audio").each(function(index, el) {
+        $(this)[0].pause();
+        $(this).prev(".pause").attr({
+          class: 'play',
+          src: 'gfx/play.png'
+        });
+      });
+      $(this).attr({
+        class: 'pause',
+        src: 'gfx/pause.png'
+      });
+      var mediaElement = $(this).next()[0];
+      var play = $(this);
       mediaElement.play();
       setInterval(function () {
         var procent_progress = mediaElement.currentTime / mediaElement.duration * 100;
-        $('.progress').css("width", procent_progress + "%");
+        play.parents(".bio-box").children('.bio-desc').children('.progress').css("width", procent_progress + "%");
       },200);
     });
 
-    $('.pause').click(function(event) {
-      $('#ave')[0].pause();
+    $("body").on('click', '.pause', function(event) {
+      $(this).next()[0].pause();
+      $(this).attr({
+        class: 'play',
+        src: 'gfx/play.png'
+      });
     });
 
     function parallaxScroll(){
