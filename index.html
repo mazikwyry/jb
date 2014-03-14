@@ -24,8 +24,8 @@
   </head>
   <body>
 
-    <div class="bg"></div>
-    <div class="bg_r"></div>
+    <div class="bg1"></div>
+    <div class="bg2"></div>
 
     <nav>
       <img src="gfx/logo.svg" alt="Joanna Bortel Homepage">
@@ -48,7 +48,7 @@
     </div>
 
     <div class="sections">
-      <section class="home" id="home">
+      <section class="home" id="home" data-order="0">
         <div class="headline">
           <img src="gfx/logo-circle.svg" alt="Joanna Bortel Homepage">
           <div class="name">
@@ -60,7 +60,7 @@
         </div>
       </section>
 
-      <section class="biography subpage" id="biography">
+      <section class="biography subpage" id="biography" data-order="1">
         <div class="cont">
           <h1>
             <span data-trans="nav.biography"></span>
@@ -123,7 +123,7 @@
         <div class="cl"></div>
       </section>
 
-      <section class="repetuar subpage" id="repetuar">
+      <section class="repetuar subpage" id="repetuar" data-order="2">
         <div class="cont">
           <h1 data-trans="nav.repetuar"></h1>
           <div class="half-box left padding5">
@@ -161,7 +161,7 @@
         </div>
       </section>
 
-     <section class="dates subpage" id="dates">
+     <section class="dates subpage" id="dates" data-order="3">
         <div class="cont">
           <h1>
             <span data-trans="nav.dates"></span>
@@ -223,7 +223,15 @@
         <div class="cl"></div>
       </section>
 
-      <section class="photos subpage no-padding" id="photos">
+      <section class="press subpage" id="press" data-order="4">
+        <div class="cont">
+          <h1>
+            <span data-trans="nav.press"></span>
+          </h1>
+        </div>
+      </section>
+
+      <section class="photos subpage no-padding" id="photos" data-order="5">
         <div class="photo-box" id="carousel">
           <div class="wrapper active-cat" id="personal">
             <img src="photos/001.jpg" alt="">
@@ -250,7 +258,7 @@
         </h1>
       </section>
 
-      <section class="recordings subpage" id="recordings">
+      <section class="recordings subpage" id="recordings" data-order="6">
           <div class="cont">
             <h1>
               <span data-trans="nav.recordings"></span>
@@ -304,7 +312,7 @@
           </div>
       </section>
       <div class="cl"></div>
-      <section class="contact subpage" id="contact">
+      <section class="contact subpage" id="contact" data-order="7">
         <div class="cont">
           <h1>
             <span data-trans="nav.contact"></span>
