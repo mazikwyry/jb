@@ -52,16 +52,42 @@ html { font-size: 62.5%; }
 
 body{
 	margin: 0px;
-	background: url("../gfx/bg1.jpg");
-	background-repeat: no-repeat;
-	background-attachment:fixed;
 	overflow-x: hidden;
 	text-align: center;
-	width: 100%;
-	background-position: center top;
-	// background-size: 100%;
 	.lato();
 	font-size: 1.3rem;
+}
+
+.body_bg{
+	position: fixed;
+	left:0px;
+	top:0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(255,255,255,.2);
+	background: url("../gfx/bg1.jpg");
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	.transition();
+}
+
+.body_bg2{
+	position: fixed;
+	left:0px;
+	top:0px;
+	right: 0px;
+	bottom: 0px;
+	background: url("../gfx/bg2.jpg");
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	.transition(1s);
+	opacity: 0;
+}
+
+.active-bg{
+	opacity: 1;
 }
 
 .bg1{
@@ -77,7 +103,7 @@ body{
 
 .bg2{
 	position: fixed;
-	left:300px;
+	left:15%;
 	top:0px;
 	right: 0px;
 	bottom: 0px;
@@ -92,7 +118,7 @@ body{
 
 nav{
 	width: 15%;
-	min-width: 200px;
+	max-width: 250px;
 	position: fixed;
 	left:0;
 	top:0px;
@@ -197,8 +223,9 @@ section{
 
 	&.subpage{
 		padding: 3% 0;
-		margin-left: 350px;
+		margin-left: 15%;
 		text-align: left;
+		width: 85%;
 	}
 
 
@@ -348,7 +375,8 @@ section{
 
 	&.contact{
 		.cont{
-			width: 50%;
+			width: 100%;
+			max-width: 800px;
 		}
 		h1{
 			margin-bottom: 20px;
@@ -358,7 +386,7 @@ section{
 			.box-sizing();
 			width: auto;
 			.bio-icon{
-				.red_alpha_bg(.9);
+				background-color:@red;
 				position: absolute;
 				top:0px;
 				bottom:0px;
@@ -371,13 +399,13 @@ section{
 				width: auto;
 				float:left;
 				padding: 5px 10px;
-				padding-left: 12%;
+				margin-left: 10%;
 				.box-sizing();
 				background-color: rgba(255,255,255,.3);
 				color: @text;
 				font-size: 3.0rem;
 				font-weight: 300;
-				width: 100%;
+				width: 90%;
 			}
 		}
 		.contact{
@@ -397,7 +425,7 @@ section{
 					bottom: 1px;
 					width: 50px;
 					.red_alpha_bg(.9);
-			}
+				}
 			}
 			input,textarea{
 				width: 100%;
@@ -452,12 +480,10 @@ section{
 
 .cont{
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1000px;
 }
 
 footer{
-	position: absolute;
-	bottom: 0px;
 	width: 100%;
 	background-color: rgba(33, 33, 33, 0.7);
 	padding: 40px 0;
@@ -536,7 +562,7 @@ footer{
     height:100%;
 }
 .left_d{left:0;top:0;}
-.right_d{right:0;top:0;}
+.right_d{left:50%;top:0;}
 
 .half-box{
 	width: 50%;
@@ -560,6 +586,19 @@ footer{
 .padding5{padding: 0 5% 0 0; }
 .hidden{display: none;}
 .red{color:@red;}
+
+
+@media screen and (max-width: 1400px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width : 1400px) {
+
+	section{
+		.cont{
+
+		}
+	}
+
+}
+
 
 @media screen and (max-width: 800px),
 screen and (-webkit-min-device-pixel-ratio: 2) and (max-width : 800px) {
