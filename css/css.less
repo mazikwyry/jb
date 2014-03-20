@@ -116,6 +116,16 @@ body{
 	opacity: 1.0;
 }
 
+.scroll-icon{
+	position: fixed;
+	bottom:5%;
+	width: 100%;
+	text-align: center;
+	img{
+		width: 40px;
+	}
+}
+
 nav{
 	width: 15%;
 	max-width: 250px;
@@ -346,6 +356,7 @@ section{
 				img{
 					width: 100%;
 					opacity: .7;
+					margin: 0;
 				}
 			}
 			.bio-desc{
@@ -390,22 +401,25 @@ section{
 				position: absolute;
 				top:0px;
 				bottom:0px;
-				width: 10%;
+				width: 47px;
+				padding: 5px;
 				img{
-					width: 100%;
+					margin: 0px;
+					margin-top: 2px;
+					width: auto;
 				}
 			}
 			.bio-desc{	
 				width: auto;
 				float:left;
 				padding: 5px 10px;
-				margin-left: 10%;
+				margin-left: 47px;
 				.box-sizing();
 				background-color: rgba(255,255,255,.3);
 				color: @text;
 				font-size: 3.0rem;
 				font-weight: 300;
-				width: 90%;
+				width: 85%;
 			}
 		}
 		.contact{
@@ -418,13 +432,28 @@ section{
 			div{
 				position: relative;
 				&::after{
-					content: '';
+					content: url("../gfx/form_name.png");
 					position: absolute;
 					left:1px;
 					top:1px;
 					bottom: 1px;
 					width: 50px;
+					padding-top: 5px;
 					.red_alpha_bg(.9);
+					.box-sizing();
+					text-align: center;
+				}
+				&:nth-of-type(2){
+					&::after{
+						content: url("../gfx/form_email.png");
+						padding-top: 6px;
+					}
+				}
+				&:nth-of-type(3){
+					&::after{
+						content: url("../gfx/form_message.png");
+						padding-top: 6px;
+					}
 				}
 			}
 			input,textarea{
@@ -517,6 +546,8 @@ footer{
 	position: relative;
 	margin-bottom: 2%;
 	.bio-icon{
+		.box-sizing();
+		padding: 10px;
 		position: absolute;
 		width: 30%;
 		background-color: #FFF;
@@ -524,6 +555,15 @@ footer{
 		top:0px;
 		bottom:0px;
 		text-align: center;
+		.lato();
+		font-weight: 300;
+		color:@text;
+		font-size:1.4rem;
+		text-transform: uppercase;
+		img{
+			width: 60%;
+			margin-top: 10px;
+		}
 	}
 	.bio-desc{
 		.lato();
