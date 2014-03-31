@@ -1,7 +1,7 @@
 	      
 function load_trans(){
   $('[data-trans]').each(function() {
-    $(this).text($.t($(this).data('trans')));
+    $(this).html($.t($(this).data('trans')));
   });
 }
 
@@ -46,10 +46,12 @@ function parallaxScroll(){
       if((scrolled > (current_pos-100)) && (scrolled < (current_pos+0.5*current_height))){
         $('.bg'+current).addClass('visible');
         $(this).addClass('active-section');
+        $("#link_to_"+$(this).attr("id")).addClass('active-link');
       }
       else if (scrolled > (current_pos+0.5*current_height) || scrolled < (current_pos-100)){
         $('.bg'+current).removeClass('visible');
         $(this).removeClass('active-section');
+        $("#link_to_"+$(this).attr("id")).removeClass('active-link');
       }
 
     });

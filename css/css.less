@@ -149,6 +149,14 @@ nav{
 		li{
 			display: block;
 			margin-top: 5px;
+			cursor: pointer;
+			.transition();
+			&:hover{
+				color: rgba(255, 255, 255, 0.7);
+			} 
+			&.active-link{
+				color:#FFF;
+			}
 		}
 	}
 	img{
@@ -271,6 +279,7 @@ section{
 					float: right;
 					text-transform: none;
 					font-style: italic;
+					text-align: right;
 				}
 			}
 		}
@@ -279,10 +288,13 @@ section{
 	&.dates{
 		.bio-box{
 			background-color: rgba(33,33,33,.7);
+			min-height: 85px;
 			.bio-icon{
 			width: 35%;	
 			padding: 0px 0;
-			position: relative;	
+			position: absolute;
+			top:0px;
+			bottom:0px;	
 				.date{
 					padding: 5px 0;
 					text-align: center;
@@ -370,8 +382,9 @@ section{
 				background-color: rgba(255,255,255,.7);
 				color: @text;
 				text-transform: uppercase;
-				font-size: 2.2rem;
+				font-size: 1.8rem;
 				font-weight: 300;
+				text-align: left;
 				.progress{
 					position: absolute;
 					top:0px;
@@ -558,7 +571,7 @@ footer{
 		.lato();
 		font-weight: 300;
 		color:@text;
-		font-size:1.4rem;
+		font-size:1.1rem;
 		text-transform: uppercase;
 		img{
 			width: 60%;
@@ -572,7 +585,7 @@ footer{
 		float: right;
 		width: 70%;
 		.box-sizing();
-		padding: 10px;
+		padding: 15px;
 		text-align: justify;
 	}
 }

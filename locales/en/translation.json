@@ -15,7 +15,37 @@
 	},
 	
 	"bio": {
-		"name": "Joanna",
-		"surname" : "Bortel"
+		"box1": {
+			"icon": "Academy of Music in Wrocław",
+			"desc": "Joanna Bortel is a young Polish mezzo-soprano singer. She graduated with honors from the Karol Lipiński Academy of Music in Wrocław where she studied at the Vocal Performance-and-Acting Faculty under Prof. Agata Młynarska-Klonowska. Holder of scholarships founded by the Rector of the Academy of Music in Wrocław, and by the Mayor of the city of Wrocław."
+		},
+		"box2": {
+			"icon": "Performed with outstanding directors",
+			"desc": "Joanna Bortel is a young Polish mezzo-soprano singer. She graduated with honors from the Karol Lipiński Academy of Music in Wrocław where she studied at the Vocal Performance-and-Acting Faculty under Prof. Agata Młynarska-Klonowska. Holder of scholarships founded by the Rector of the Academy of Music in Wrocław, and by the Mayor of the city of Wrocław."
+		},
+		"box3": {
+			"icon": "Attended Vocal & interpretion courses",
+			"desc": "Joanna Bortel is a young Polish mezzo-soprano singer. She graduated with honors from the Karol Lipiński Academy of Music in Wrocław where she studied at the Vocal Performance-and-Acting Faculty under Prof. Agata Młynarska-Klonowska. Holder of scholarships founded by the Rector of the Academy of Music in Wrocław, and by the Mayor of the city of Wrocław."
+		},
+		"box4": {
+			"icon": "Special Price of international vocal competition '11 <br/><br/> 2nd Price national vocal competition '13",
+			"desc": "Joanna Bortel is a young Polish mezzo-soprano singer. She graduated with honors from the Karol Lipiński Academy of Music in Wrocław where she studied at the Vocal Performance-and-Acting Faculty under Prof. Agata Młynarska-Klonowska. Holder of scholarships founded by the Rector of the Academy of Music in Wrocław, and by the Mayor of the city of Wrocław."
+		},
+		"box5": {
+			"icon": "Extensive stage expirience",
+			"desc": "Joanna Bortel is a young Polish mezzo-soprano singer. She graduated with honors from the Karol Lipiński Academy of Music in Wrocław where she studied at the Vocal Performance-and-Acting Faculty under Prof. Agata Młynarska-Klonowska. Holder of scholarships founded by the Rector of the Academy of Music in Wrocław, and by the Mayor of the city of Wrocław."
+		} 
+	},
+	"dates":{
+		"2014/1":{
+			"d": "20",
+			"m": "03",
+			"desc": "A.Vivaldi – Stabat Mater (contralto solo)<br/>G.B.Pergolesi – Stabat Mater (alto solo)<br/><br/>Conductor: Marta Kierska – Witczak<br/>Place: Wrocław."
+		},
+		"2014/2":{
+			"d": "22",
+			"m": "03",
+			"desc": "A.Vivaldi – Stabat Mater (contralto solo)<br/>G.B.Pergolesi – Stabat Mater (alto solo)<br/><br/>Conductor: Marta Kierska – Witczak<br/>Place: Wrocław."
+		}
 	}
 }
