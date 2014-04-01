@@ -336,7 +336,7 @@ section{
 			position: absolute;
 			bottom:0px;
 			left: 3%;
-			width: 50%;
+			width: 100%;
 			.cats{
 				.lato();
 				font-size: 2.0rem;
@@ -394,6 +394,33 @@ section{
 					background-color: rgba(33,33,33,0.2);
 				}
 			}
+		}
+	}
+
+	&.press{
+		.quote{
+			position: relative;
+			width: 100%;
+			text-align: left;
+			font-size: 3.0rem;
+			.great();
+			color:@text;
+			span{
+				display: inline-block;
+				padding: 3px;
+				padding-top: 5px;
+				background-color: rgba(255,255,255,0.7);
+				line-height: 2.4rem;
+			}
+			.author{
+				.lato;
+				font-weight: 300;
+				.red_alpha_bg(.9);
+				color: #FFF;
+				font-size: 1.5rem;
+				line-height: 1.5rem;
+			}
+
 		}
 	}
 
@@ -613,9 +640,33 @@ footer{
     position:absolute;
     width:50%;
     height:100%;
+    img{
+    	height: 33%;
+    	top:33%;
+    	position: absolute;
+    	opacity: 0.4;
+    	.transition();
+    }
+    &:hover{
+    	img{
+    		opacity: 0.6;
+    	}
+    }
 }
-.left_d{left:0;top:0;}
-.right_d{left:50%;top:0;}
+.left_d{
+	left:0;
+	top:0;
+	img{
+		left:100px;
+	}
+}
+.right_d{
+	left:50%;
+	top:0;
+	img{
+		right:100px;
+	}
+}
 
 .half-box{
 	width: 50%;
@@ -639,6 +690,7 @@ footer{
 .padding5{padding: 0 5% 0 0; }
 .hidden{display: none;}
 .red{color:@red;}
+.align-right{text-align: right !important;}
 
 
 @media screen and (max-width: 1400px),
