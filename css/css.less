@@ -90,6 +90,10 @@ body{
 	opacity: 1;
 }
 
+.visible{
+	opacity: 1.0;
+}
+
 .bg1{
 	position: fixed;
 	left:0px;
@@ -108,13 +112,49 @@ body{
 	right: 0px;
 	bottom: 0px;
 	opacity: 0;
-	background-color: rgba(33,33,33,.95);
+	background: #222222;
 	.transition();
+	&::after{
+		content: '';
+		position: absolute;
+		left:0px;
+		top:0px;
+		right: 0px;
+		bottom: 0px;
+		background: url("../gfx/rep_bg.jpg");
+		background-attachment:fixed;
+		opacity: 0.05;
+	}
+	&.visible{
+		opacity: 0.98;
+	}
 }
 
-.visible{
-	opacity: 1.0;
+.bg6{
+	position: fixed;
+	left:15%;
+	top:0px;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0;
+	background: rgba(34,34,34,1);
+	&::after{
+		content: '';
+		position: absolute;
+		left:0px;
+		top:0px;
+		right: 0px;
+		bottom: 0px;
+		background: url("../gfx/rec_bg.png");
+		background-attachment:fixed; 
+	}
+	.transition();
+	&.visible{
+		opacity: 0.46;
+	}
 }
+
+
 
 .scroll-icon{
 	position: fixed;
@@ -182,6 +222,23 @@ nav{
 	}
 }
 
+.social{
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	a{
+		display: block;
+		float:left;
+		margin-left: 5px;
+		background-color: rgba(0,0,0,0.2);
+		width: 28px;
+		height: 28px;
+		img{
+			width: 28px;
+		}
+	}
+}
+
 .sections{
 	position: relative;	
 }
@@ -207,11 +264,14 @@ section{
 	}
 
 	.headline{
-		display: inline-block;
-		display: table-cell;
-    	vertical-align: middle;
 		width:50%;
 		max-width: 700px;
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%); /* IE 9 */
+		-webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
+		transform: translate(-50%, -50%);
 		margin: auto;
 		img{
 			width: 100px;
@@ -231,9 +291,6 @@ section{
 	}
 
 	&.home{
-		display: table;
-		width:50%;
-		max-width: 700px;
 		*{
 			opacity: 1 !important;
 		}
@@ -288,7 +345,7 @@ section{
 	&.dates{
 		.bio-box{
 			background-color: rgba(33,33,33,.7);
-			min-height: 85px;
+			min-height: 120px;
 			.bio-icon{
 			width: 35%;	
 			padding: 0px 0;
@@ -297,7 +354,14 @@ section{
 			bottom:0px;	
 				.date{
 					padding: 5px 0;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					-ms-transform: translate(-50%, -50%); /* IE 9 */
+					-webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
+					transform: translate(-50%, -50%);
 					text-align: center;
+					height: 80px;
 					.lato();
 					font-size:5.0rem;
 					.day{
@@ -353,6 +417,7 @@ section{
 	}
 
 	&.recordings{
+		padding-left: 3%;
 		h1{
 			margin-bottom: 20px;
 		}
@@ -365,6 +430,7 @@ section{
 				width:	35%;
 				padding: 0px 0;
 				position: relative;	
+				cursor: pointer;
 				img{
 					width: 100%;
 					opacity: .7;
