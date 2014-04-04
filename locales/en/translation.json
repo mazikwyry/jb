@@ -272,5 +272,9 @@
 		"month": "11",
 		"desc": "W.A.Mozart - Krönungsmesse KV 317(alto solo)<br/>Conductor: Hubert Prochota<br/>In Olesno."
 		}
+	},
+	"photos":{
+		"personal": "Personal",
+		"performance": "Performance"
 	}
 }

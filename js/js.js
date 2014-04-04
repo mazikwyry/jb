@@ -31,11 +31,14 @@ function parallaxScroll(){
       if(!scrolling && current>0 && (scrolled > (prev_pos+prev_bonus+50)) && (scrolled < (current_pos-50))){
         disable_scroll();
         var minus = 0;
-        if(scrolled < oldSrcoll) 
+        var plus = 0;
+        if(scrolled < oldSrcoll){ 
           minus = 1;
+          plus = parseInt(prev.css("height"))-section_height;
+        }
         scrolling = false;
         $('html, body').stop(true,true).animate({
-          scrollTop: $('[data-order="'+(current-minus)+'"]').offset().top
+          scrollTop: $('[data-order="'+(current-minus)+'"]').offset().top+plus
         }, 100, function() {
           scrolling = false;
         });
@@ -43,12 +46,12 @@ function parallaxScroll(){
         
       }
 
-      if((scrolled > (current_pos-100)) && (scrolled < (current_pos+0.5*current_height))){
+      if((scrolled > (current_pos-100)) && (scrolled < (current_pos+current_height-section_height))){
         $('.bg'+current).addClass('visible');
         $(this).addClass('active-section');
         $("#link_to_"+$(this).attr("id")).addClass('active-link');
       }
-      else if (scrolled > (current_pos+0.5*current_height) || scrolled < (current_pos-100)){
+      else if (scrolled > (current_pos+current_height-section_height) || scrolled < (current_pos-100)){
         $('.bg'+current).removeClass('visible');
         $(this).removeClass('active-section');
         $("#link_to_"+$(this).attr("id")).removeClass('active-link');
