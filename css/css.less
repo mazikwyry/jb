@@ -210,6 +210,7 @@ nav{
 	position: fixed;
 	right: 20px;
 	top:20px;
+	z-index: 100;;
 	a{
 		padding: 8px;
 		.lato();
@@ -219,6 +220,14 @@ nav{
 		background-color: rgba(0,0,0,0.2);
 		font-size: 1.2rem;
 		text-align: center;
+		cursor: pointer;
+		.transition();
+		&.active-lang{
+			background-color: lighten(@red, 10%);
+		}
+		&:hover{
+			background-color: rgba(0,0,0,0.4);
+		}
 	}
 }
 
@@ -226,6 +235,7 @@ nav{
 	position: fixed;
 	left: 20px;
 	bottom: 20px;
+	z-index: 100;
 	a{
 		display: block;
 		float:left;
@@ -233,6 +243,10 @@ nav{
 		background-color: rgba(0,0,0,0.2);
 		width: 28px;
 		height: 28px;
+		.transition();
+		&:hover{
+			background-color: rgba(0,0,0,0.4);
+		}
 		img{
 			width: 28px;
 		}
@@ -588,6 +602,7 @@ section{
 				font-weight: 300;
 				display: block;
 				&[type="submit"]{
+					cursor: pointer;
 					width: auto;
 					background-color: @red;
 					color:white;

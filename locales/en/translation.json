@@ -21,22 +21,37 @@
 		},
 		"box2": {
 			"icon": "Performed with outstanding directors",
-			"desc": "Joanna Bortel is a young Polish mezzo-soprano singer. She graduated with honors from the Karol Lipiński Academy of Music in Wrocław where she studied at the Vocal Performance-and-Acting Faculty under Prof. Agata Młynarska-Klonowska. Holder of scholarships founded by the Rector of the Academy of Music in Wrocław, and by the Mayor of the city of Wrocław."
+			"desc": "She performed with a number of outstanding directors, including Jan Łukaszewski, Bogusław Dawidow, Tadeusz Zathey, Helena Tomaszek-Plewa, Alan Urbanek, Małgorzata Sapiecha-Muzioł, Hubert Prochota, Marzena Diakun, Stefano Bevier, Silvano Frontalini, Kazimierz Kord, Adam Klocek, and Dariusz Tabisz. <br/><br/>"
 		},
 		"box3": {
 			"icon": "Attended Vocal & interpretion courses",
-			"desc": "Joanna Bortel is a young Polish mezzo-soprano singer. She graduated with honors from the Karol Lipiński Academy of Music in Wrocław where she studied at the Vocal Performance-and-Acting Faculty under Prof. Agata Młynarska-Klonowska. Holder of scholarships founded by the Rector of the Academy of Music in Wrocław, and by the Mayor of the city of Wrocław."
+			"desc": "To perfect her vocal and acting skills she attended a number of master classes and interpretation courses given by outstanding pedagogues: Drahomira Mičková, Toni Shekerdzieva, Carol Richardson–Smith, Helena Łazarska, Stefania Kaluza, Agata Młynarska-Klonowska, Ella Susmanek, Izabella Kłosińska, Urszula Kryger, Teresa Żylis-Gara, Andrzej Dobber, and others. She took part in several courses for acting-and-vocal interpretation, including those conducted by Andreas Baumann from Hochschule für Music Carl Maria von Weber in Dresden, and by Cezary Tomaszewski, and Jan Peszek."
 		},
 		"box4": {
 			"icon": "Special Price of international vocal competition '11 <br/><br/> 2nd Price national vocal competition '13",
-			"desc": "Joanna Bortel is a young Polish mezzo-soprano singer. She graduated with honors from the Karol Lipiński Academy of Music in Wrocław where she studied at the Vocal Performance-and-Acting Faculty under Prof. Agata Młynarska-Klonowska. Holder of scholarships founded by the Rector of the Academy of Music in Wrocław, and by the Mayor of the city of Wrocław."
+			"desc": "Joanna Bortel was the winner of several prizes and awards of distinctions in various vocal competitions, both in Poland and abroad, including: 3rd Prize of the Franciszka Platówna All-Poland Vocal Competition in Wrocław (2006), finalist of the 21st Biennial of the International Vocal Competition of Mikuláš Schneider-Trnavský in Trnava (Slovakia 2010), winner of the Special Prize in the Stanislaw Moniuszko International Competition “The Song at Dusk” in Białystok (2011). In 2013 she won the 2nd Prize in the Reszke Brothers National Vocal Competition in Częstochowa."
 		},
 		"box5": {
 			"icon": "Extensive stage expirience",
-			"desc": "Joanna Bortel is a young Polish mezzo-soprano singer. She graduated with honors from the Karol Lipiński Academy of Music in Wrocław where she studied at the Vocal Performance-and-Acting Faculty under Prof. Agata Młynarska-Klonowska. Holder of scholarships founded by the Rector of the Academy of Music in Wrocław, and by the Mayor of the city of Wrocław."
+			"desc": "She gained her stage experience, yet when studying in the Academy, through performing in several opera performances, including “Serse” by George Frideric Haendel (as AMASTRE), “Tolomeo et Alessandro” by Domenico Scarlatti (as DORISBE), “The Magic Flute” by Wolfgang Amadeus Mozart (as III LADY), “Rigoletto” by Giuseppe Vedri (as MADDALENA), “Agatka” by J. D. Holland (as PLOCIUCHOVA), “Rusalka” by Antoni Dvorak (as JEŽIBABA), “Eugene Onegin” by Pyotr Tchaikovsky (as OLGA), and “Die Fledermaus” by Johann Straus (as ORLOFSKI). Her repertoire includes many oratorio, cantata, and song pieces. Though still young, she took part in many concerts and festivals of music, including “Die große Giuseppe Verdi Nacht” organized by the Munich Philharmonic Orchestra, and the Neue Flora Theater in Hamburg, as well as in the 22nd Gaude Mater International Festival of Sacral Music in Częstochowa (Poland)."
 		} 
 	},
 	"dates":{
+		"2014/08":{
+			"day": "18",
+			"month": "05",
+			"desc": "Concert:  “Music in Basilic”<br/>Joanna Bortel – mezzosoprano<br/>Ewa Majcherczyk – soprano<br/>Organ: Wojciech Stysz.<br/>Panewniki Church<br/>In Katowice."
+		},
+		"2014/09":{
+			"day": "22",
+			"month": "04",
+			"desc": "A.Vivaldi – Beatus Vir (soprano II, contralto solo)<br/>G.B.Pergolesi – Stabat Mater (alto solo)<br/>Conductor: Marta Kierska – Witczak<br/>In Wrocław"
+		},
+		"2014/010":{
+			"day": "13",
+			"month": "04",
+			"desc": "Recital Edward Grieg<br/>Joanna Bortel – mezzosoprano<br/>Mateusz Lasatowicz - piano<br/>In Katowice "
+		},
 		"2014/1":{
 			"day": "20",
 			"month": "03",
@@ -56,21 +71,21 @@
 		},
 
 		"2013/1":{
-		"day": "xx",
-		"month": "xx",
+		"day": "24",
+		"month": "05",
 		"desc": "A.Dvořák „Rusalka” (Ježibaba - mezzosoprano)<br/>Conductor: Dariusz Tabisz <br/>Philharmonic in Jelenia Góra."
 		},
 
 
 		"2013/2":{
-		"day": "xx",
-		"month": "xx",
+		"day": "22",
+		"month": "03",
 		"desc": "W.A.Mozart - Requiem d-moll  (alto solo) <br/>Conductor: Kazimierz Kord<br/>Philharmonic in Jelenia Góra."
 		},
 
 		"2013/3":{
-		"day": "xx",
-		"month": "xx",
+		"day": "20",
+		"month": "02",
 		"desc": "C. Saint-Saens, G.Bizet, S.Rachmaninov Recital.<br/>Piano: Witold Janusz<br/>Music and Literature Club in Wrocław."
 		},
 

@@ -128,6 +128,8 @@ var oldSrcoll;
     i18n.setLng($(this).data('lang'), function(t) {
       load_trans();
      });
+    $("[data-lang]").removeClass('active-lang');
+    $(this).addClass('active-lang');
   });
 
   $('nav li').click(function(){
@@ -223,6 +225,50 @@ var oldSrcoll;
     $('.photo-box').animate({"left":"0px"});
     $("#"+$(this).data("rel")).addClass('active-cat').fadeIn('fast');
   });
+
+  $("#contact_form").submit(function(){
+    var ok=1;
+    if($('#textarea').val()=="")
+    {
+      $('#textarea').attr("placeholder","Say something here!");
+      $('#textarea').css("border-color","red");
+      ok=0;
+    }
+    
+    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;  
+
+    if(emailPattern.test($('#email').val())==false)
+    {
+      $('#email').val("");
+      $('#email').attr("placeholder","Invalid or empty email address!");
+      $('#email').css("border-color","red");
+      ok=0;
+    }
+
+    
+    if(ok==1){
+      $.ajax({
+        type: "POST",
+        url: "mail.php",
+        data: { email: $("#email").val(), name:  $("#name").val(), text:  $("#textarea").val()}
+      }).done(function() {
+        $('#send_button').val("Email has been sent! Thank you.");
+        $('#textarea').css("border-color","#FFF");
+        $('#email').css("border-color","#FFF");
+        setTimeout(function(){
+            $('#textarea').val("");
+            $('#email').val("");
+            $('#name').val("");
+            $('#textarea').attr("placeholder","");
+            $('#email').attr("placeholder","Your email");
+          $('#send_button').val("Send");
+        },4000)
+      });
+    }
+
+    return false;
+    
+  })
 
 });
 

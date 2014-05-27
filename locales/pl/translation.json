@@ -1,14 +1,295 @@
 {
 	"nav": {
+		"home": "home",
 		"biography": "biografia",
-		"repetuar": "repetuar",
-		"photos": "zdjecia",
-		"dates": "terminy",
-		"contact": "kontact"
+		"repetuar": "repertuar",
+		"dates": "terminarz",
+		"press": "prasa",
+		"photos": "zdjęcia",
+		"recordings": "nagrania",
+		"contact": "kontakt"
 	},
 
+	"home": {
+		"mezosoprano":"mezzosporan"
+	},
+	
 	"bio": {
-		"name": "Joanna",
-		"surname" : "Bortel"
+		"box1": {
+			"icon": "Akademia Muzyczna we Wrocławiu",
+			"desc": "Joanna Bortel młoda polska mezzosopranistka. Z wyróżnieniem ukończyła studia na Wydziale Wokalno-Aktorskim Akademii Muzycznej im. Karola Lipińskiego we Wrocławiu w klasie śpiewu prof. Agaty Młynarskiej-Klonowskiej. Stypendystka Rektora Akademii Muzycznej we Wrocławiu i Prezydenta Miasta Wrocławia."
+		},
+		"box2": {
+			"icon": "Współpraca z wybitnymi dyrygentami",
+			"desc": "Współpracowała z wieloma wybitnymi dyrygentami takimi jak: Jan Łukaszewski, Bogusław Dawidow, Tadeusz Zathey, Helena Tomaszek-Plewa, Alan Urbanek, Małgorzata Sapiecha-Muzioł, Hubert Prochota, Marzena Diakun, Stefano Bevier, Silvano Frontalini, Kazimierz Kord, Adam Klocek oraz Dariusz Tabisz. <br/><br/>"
+		},
+		"box3": {
+			"icon": "Uczestnictwo w kursach wokalnych i interpretacyjnych",
+			"desc": "Umiejętności wokalno-aktorskie doskonaliła uczestnicząc w licznych kursach mistrzowskich i interpretacyjnych prowadzonych przez wybitnych pedagogów: Drahomira Mičková, Toni Shekerdzieva, Carol Richardson – Smith, Helena Łazarska, Stefania Kaluza, Agata Młynarska-Klonowska, Ella Susmanek, Izabella Kłosińska, Urszula Kryger, Teresa Żylis-Gara oraz Andrzej Dobber. Uczestniczyła kilkakrotnie w kursach aktorskiej interpretacji wokalnej prowadzonych m.in. przez Andreasa Baumanna z Hochschule für Music Carl Maria von Weber z Drezna oraz Cezarego Tomaszewskiego i Jana Peszka."
+		},
+		"box4": {
+			"icon": "Nagroda Sepcjalna Międzynarodowego Konkursu Wokalnego '11 <br/><br/> II Miejsce w Ogólnopolskim Konkursie Wokalnym '13",
+			"desc": "Joanna Bortel jest laureatką wielu nagród i wyróżnień w konkursach wokalnych zarówno w Polsce jak i za granicą m.in.: III nagrody na Ogólnopolskim Konkursie Wokalnym im. Franciszki Platówny we Wrocławiu (2006), finalistka 21 st biennial of the International Vocal Competition of Mikuláš Schneider-Trnavský in Trnava (Slovakia 2010), zdobywczyni Nagrody Specjalnej na Międzynarodowym Konkursie Moniuszkowskim „Pieśń Wieczorna” w Białymstoku (2011). W roku 2013 laureatka II nagrody w Konkursie Wokalnym im. Jana, Edwarda i Józefiny Reszków w Częstochowie. <br/><br/>"
+		},
+		"box5": {
+			"icon": "Bogate doświadczenie sceniczne",
+			"desc": "Doświadczenie sceniczne zdobywała już w trakcie studiów występując w spektaklach operowych: Xerxes G.F.Haendla (AMASTRE), Tolomeo et Aleksandro D.Scarlattiego (DORISBE), Czarodziejski Flet W. A.Mozarta (III DAMA), Rigolleto G.Verdiego (MADDALENA), Agatka J.D.Hollanda (PLOCIUCHOWA), Rusałka A.Dvoraka (JEŽIBABA), Eugeniusz Oniegin P.Czajkowskiego (OLGA), Zemsta Nietoperza J.Strauss (ORLOFSKI). Ponadto w swoim repertuarze posiada wiele dzieł oratoryjnych, kantatowych i pieśniarskich. Pomimo młodego wieku brała udział w wielu koncertach oraz ważnych Festiwalach Muzycznych m.in. „Die große Giuseppe Verdi Nacht” w Filharmonii w Monachium i Theater Neue Flora w Hamburgu oraz w XXII Międzynarodowym Festiwalu Muzyki Sakralnej Gaude Mater w Częstochowie (Polska)."
+		} 
+	},
+	"dates":{
+		"2014/08":{
+			"day": "18",
+			"month": "05",
+			"desc": "Concert:  “Music in Basilic”<br/>Joanna Bortel – mezzosoprano<br/>Ewa Majcherczyk – soprano<br/>Organ: Wojciech Stysz.<br/>Panewniki Church<br/>In Katowice."
+		},
+		"2014/09":{
+			"day": "22",
+			"month": "04",
+			"desc": "A.Vivaldi – Beatus Vir (soprano II, contralto solo)<br/>G.B.Pergolesi – Stabat Mater (alto solo)<br/>Conductor: Marta Kierska – Witczak<br/>In Wrocław"
+		},
+		"2014/010":{
+			"day": "13",
+			"month": "04",
+			"desc": "Recital Edward Grieg<br/>Joanna Bortel – mezzosoprano<br/>Mateusz Lasatowicz - piano<br/>In Katowice "
+		},
+		"2014/1":{
+			"day": "20",
+			"month": "03",
+			"desc": "A.Vivaldi – Stabat Mater (contralto solo)<br/>G.B.Pergolesi – Stabat Mater (alto solo)<br/>Conductor: Marta Kierska – Witczak<br/>Place: Wrocław."
+		},
+
+		"2014/2":{
+		"day": "22",
+		"month": "03",
+		"desc": "A.Vivaldi – Stabat Mater (contralto solo)<br/>G.B.Pergolesi – Stabat Mater (alto solo)<br/>Conductor: Marta Kierska – Witczak<br/>In Wrocław."
+		},
+
+		"2014/3":{
+		"day": "11",
+		"month": "11",
+		"desc": "G.B.Pergolesi - Stabat Mater (alto solo)<br/>Baroque Orchestra<br/>Church in Wyry"
+		},
+
+		"2013/1":{
+		"day": "24",
+		"month": "05",
+		"desc": "A.Dvořák „Rusalka” (Ježibaba - mezzosoprano)<br/>Conductor: Dariusz Tabisz <br/>Philharmonic in Jelenia Góra."
+		},
+
+
+		"2013/2":{
+		"day": "22",
+		"month": "03",
+		"desc": "W.A.Mozart - Requiem d-moll  (alto solo) <br/>Conductor: Kazimierz Kord<br/>Philharmonic in Jelenia Góra."
+		},
+
+		"2013/3":{
+		"day": "20",
+		"month": "02",
+		"desc": "C. Saint-Saens, G.Bizet, S.Rachmaninov Recital.<br/>Piano: Witold Janusz<br/>Music and Literature Club in Wrocław."
+		},
+
+		"2013/4":{
+		"day": "22",
+		"month": "02",
+		"desc": "International Vocal Competition Jan, Edward Józefina Reszke in Częstochowa – 2nd Preise."
+		},
+
+		"2012/1":{
+		"day": "18",
+		"month": "12",
+		"desc": "G.B.Pergolesi - Stabat Mater (alto solo) <br/>Conductor: Stefano Bevier<br/>In Wrocław."
+		},
+
+		"2012/2":{
+		"day": "06",
+		"month": "05",
+		"desc": "W.A.Mozart - Requiem d-moll (alto solo)<br/>Conductor: Jan Łukaszewski<br/>15 th International Festival of Sacred Music in Częstochowa."
+		},
+
+		"2012/3":{
+		"day": "16",
+		"month": "01",
+		"desc": "Die große Giuseppe Verdi (mezzosoprano - solo)<br/>Conductor: Silvano Frontalini<br/>Theater Neue Flora in Hamburg."
+		},
+
+		"2012/4":{
+		"day": "02",
+		"month": "05",
+		"desc": "J.D.Holland - Opera „Agatka” (Plociuchowa - mezzosoprano)<br/>Conductor: Marek Toporowski<br/>Director: Ewelina Pietrowiak<br/>In Duszniki Zdrój."
+		},
+
+		"2012/5":{
+		"day": "26",
+		"month": "03",
+		"desc": "W.A.Mozarta - Requiem d-moll (alto solo)<br/>J.Haydn - Stabat Mater (alto solo)<br/>Conductor: Alan Urbanek<br/>In Erkelenz."
+		},
+
+		"2012/6":{
+		"day": "28",
+		"month": "04",
+		"desc": "J.D.Hollanda - Opera „Agatka” (Plociuchowa - mezzosoprano)<br/>Conductor: Marek Toporowski<br/>Director: Ewelina Pietrowiak<br/>The Karol Lipiński Academy of Music in Wrocław. "
+		},
+
+		"2012/7":{
+		"day": "17",
+		"month": "03",
+		"desc": "W.A.Mozarta - Requiem d-moll (alto solo)<br/>J.Haydn - Stabat Mater (alto solo)<br/>Conductor: Alan Urbanek<br/>Church in Wrocław (Złotniki)."
+		},
+
+		"2012/8":{
+		"day": "10",
+		"month": "03",
+		"desc": "W.A.Mozarta - Requiem d-moll (alto solo)<br/>J.Haydn - Stabat Mater (alto solo)<br/>Conductor Alan Urbanek<br/>In Wrocław."
+		},
+
+		"2012/9":{
+		"day": "16",
+		"month": "01",
+		"desc": "Die große Giuseppe Verdi (mezzosoprano solo)<br/>Conductor: Silvano Frontalini<br/>in München Philharmonie"
+		},
+
+		"2012/10":{
+		"day": "04",
+		"month": "11",
+		"desc": "H.Schütz, M.Zieleński, A.Grandii (alto)<br/>viola da gamba - Radosław Dębiński<br/>organ  - Daniel Pochwała<br/>Church St. Nicolas in Wrocław."
+		},
+
+		"2012/11":{
+		"day": "26",
+		"month": "02",
+		"desc": "G.B.Pergolesi – Stabat Mater (alto solo) <br/>Conductor: Stefano Bevier<br/>in Berliner Dom."
+		},
+
+
+		"2012/12":{
+		"day": "26",
+		"month": "03",
+		"desc": "W.A.Mozarta - Requiem d-moll (alto solo)<br/>J.Haydn - Stabat Mater (alto solo)<br/>Conductor: Alan Urbanek<br/>In Erkelenz."
+		},
+
+		"2012/13":{
+		"day": "04",
+		"month": "12",
+		"desc": "W.A.Mozarta - Requiem d-moll (alto solo)<br/>J.Haydn - Stabat Mater (alto solo)<br/>Conductor: Małgorzata Sapiecha - Musioł<br/>Church in Wrocław."
+		},
+
+		"2011/1":{
+		"day": "15",
+		"month": "11",
+		"desc": "W.A.Mozart - Krönungsmesse KV 317 (alto solo)<br/>Conductor: Alan Urbanek<br/>In Wrocław."
+		},
+
+		"2011/2":{
+		"day": "11",
+		"month": "09",
+		"desc": "G.F.Händel - Messiah (alto solo)<br/>Conductor: Marzena Diakun<br/>In Nadolice Wielkie."
+		},
+
+		"2011/3":{
+		"day": "30",
+		"month": "06",
+		"desc": "W.A.Mozart - Krönungsmesse KV 317 (alto solo)<br/>Conductor: Alan Urbanek<br/>In Halle (Deutschland)."
+		},
+
+		"2011/4":{
+		"day": "04",
+		"month": "06",
+		"desc": "W.A.Mozart – Die Zauberflӧte (III Dame)<br/>Opera Fragments<br/>Piano: Tomasz Kaczmarek<br/>In Wrocław."
+		},
+
+		"2011/5":{
+		"day": "28",
+		"month": "05",
+		"desc": "X.Montsalvatge – Cinco Canciones Negras (mezzosoprano solo)<br/>Piano: Natalia Figiel<br/>The Karol Lipiński Academy of Music in Wrocław. "
+		},
+		 
+		"2011/6":{
+		"day": "26",
+		"month": "05",
+		"desc": "G.F.Händel – Xerxes (Amastre)<br/>Conductor: Tadeusz Zathey <br/>Director: Elżbieta Lejman-Krzysztyniak<br/>The Karol Lipiński Academy of Music in Wrocław. "
+		},
+
+		"2011/7":{
+		"day": "06",
+		"month": "05",
+		"desc": "Stanislaw Moniuszko International Competition “The Song at Dusk” -  Special Prize<br/>Piano : Monika Pawlas<br/>In Białystok."
+		},
+
+		"2011/8":{
+		"day": "29",
+		"month": "04",
+		"desc": "G.F.Händel – Xerxes (Amastre)<br/>Conductor: Tadeusz Zathey <br/>Director: Elżbieta Lejman-Krzysztyniak<br/>In Duszniki Zdrój."
+		},
+
+		"2011/9":{
+		"day": "19",
+		"month": "04",
+		"desc": "G.F.Händel – Xerxes (Amastre)<br/>Conductor: Tadeusz Zathey <br/>Director: Elżbieta Lejman-Krzysztyniak<br/>The Karol Lipiński Academy of Music in Wrocław. "
+		},
+
+		"2011/10":{
+		"day": "17",
+		"month": "04",
+		"desc": "G.F.Händel – Xerxes (Amastre)<br/>Conductor: Tadeusz Zathey <br/>Director: Elżbieta Lejman-Krzysztyniak<br/>The Karol Lipiński Academy of Music in Wrocław. "
+		},
+
+		"2010/1":{
+		"day": "14",
+		"month": "12",
+		"desc": "J.S.Bach - Weihnachtsoratorium (alto solo)<br/>Conductor: Alan Urbanek<br/>In Erkelenz"
+		},
+
+		"2010/2":{
+		"day": "11",
+		"month": "06",
+		"desc": "D.Scarlatti -  Tolomeo et Alessandro (Dorisbe)<br/>Conductor: Helena Tomaszek-Plewa<br/>Director: Elżbieta Lejman-Krzysztyniak<br/>In Oława."
+		},
+
+		"2010/3":{
+		"day": "22",
+		"month": "05",
+		"desc": "Finalist 21st biennial of the International Vocal Competititon of Mikuláš Schneider-Trnavský in Trnava <br/>In Slovakia"
+		},
+
+		"2010/4":{
+		"day": "17",
+		"month": "05",
+		"desc": "X.Montsalvatge – Cinco Canciones Negras (mezzosoprano solo)<br/>Piano: Natalia Figiel<br/>The Karol Lipiński Academy of Music in Wrocław. "
+		},
+
+		"2010/5":{
+		"day": "22",
+		"month": "04",
+		"desc": "L.v.Beethoven – Missa C-dur (alto solo)<br/>L.v.Beethoven – Fantasie c-moll (alto solo)<br/>Conductor: Alan Urbanek<br/>In Erkelenz."
+		},
+
+		"2008/1":{
+		"day": "25",
+		"month": "11",
+		"desc": "L.v.Beethoven – Missa C-dur (alto solo)<br/>L.v.Beethoven – Fantasie c-moll (alto solo)<br/>Conductor: Alan Urbanek<br/>In Erkelenz."
+		},
+
+		"2008/2":{
+		"day": "15",
+		"month": "11",
+		"desc": "L.v.Beethoven – Missa C-dur (alto solo)<br/>L.v.Beethoven – Fantasie c-moll (alto solo)<br/>Conductor: Alan Urbanek<br/>In Wrocław."
+		},
+
+		"2008/3":{
+		"day": "29",
+		"month": "11",
+		"desc": "W.A.Mozart - Krönungsmesse KV 317(alto solo)<br/>Conductor: Hubert Prochota<br/>In Opole."
+		},
+
+		"2008/4":{
+		"day": "30",
+		"month": "11",
+		"desc": "W.A.Mozart - Krönungsmesse KV 317(alto solo)<br/>Conductor: Hubert Prochota<br/>In Olesno."
+		}
+	},
+	"photos":{
+		"personal": "Prywatne",
+		"performance": "Scena"
 	}
 }

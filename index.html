@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Joanna Bortel // Mezzosoprano</title>
+    <title>Joanna Bortel // Mezzo-soprano</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,14 +45,18 @@
     </nav>
 
     <div class="lang">
-      <a class="change_lang" data-lang="pl">PL</a>
-      <a class="change_lang" data-lang="en">EN</a>
+      <a class="change_lang active-lang" data-lang="en">EN</a>
       <a class="change_lang" data-lang="de">DE</a>
+      <a class="change_lang" data-lang="pl">PL</a>
     </div>
 
     <div class="social">
-      <a data-lang="pl"><img src="gfx/fb.png" alt=""></a>
-      <a data-lang="en"><img src="gfx/lin.png" alt=""></a>
+      <a href="https://www.facebook.com/pages/Joanna-Bortel-mezzosoprano/253482201502843">  
+        <img src="gfx/fb.png" alt="">
+      </a>
+      <a href="http://pl.linkedin.com/pub/joanna-bortel/8b/787/3ba/en">
+        <img src="gfx/lin.png" alt="">
+      </a>
     </div>
 
     <div class="scroll-icon">
@@ -93,23 +97,11 @@
             </div>
             <div class="bio-box">
               <div class="bio-icon">
-                <img src="gfx/bio2.png" alt=""><br/>
+                <img src="gfx/bio3.png" alt=""><br/>
                 <span data-trans="bio.box2.icon"></span>
               </div>
               <div class="bio-desc">
                 <span data-trans="bio.box2.desc"></span>
-              </div>
-              <div class="cl"></div>
-            </div>
-          </div>
-          <div class="half-box left">
-            <div class="bio-box">
-              <div class="bio-icon">
-                <img src="gfx/bio3.png" alt=""><br/>
-                <span data-trans="bio.box3.icon"></span>
-              </div>
-              <div class="bio-desc">
-                <span data-trans="bio.box3.desc"></span>
               </div>
               <div class="cl"></div>
             </div>
@@ -123,6 +115,19 @@
               </div>
               <div class="cl"></div>
             </div>
+          </div>
+          <div class="half-box left">
+            <div class="bio-box">
+              <div class="bio-icon">
+                <img src="gfx/bio2.png" alt=""><br/>
+                <span data-trans="bio.box3.icon"></span>
+              </div>
+              <div class="bio-desc">
+                <span data-trans="bio.box3.desc"></span>
+              </div>
+              <div class="cl"></div>
+            </div>
+          
             <div class="bio-box">
               <div class="bio-icon">
                 <img src="gfx/bio5.png" alt=""><br/>
@@ -196,6 +201,39 @@
 
           <div class="half-box left padding5">
             <h2>2014</h2>
+            <div class="bio-box">
+              <div class="bio-icon">
+                <div class="date">
+                  <span class="day"><span data-trans="dates.2014/08.day"></span></span><span class="per">/</span><span class="month"><span data-trans="dates.2014/08.month"></span></span>
+                </div>
+              </div>
+              <div class="bio-desc">
+                <span data-trans="dates.2014/08.desc"></span>
+              </div>
+              <div class="cl"></div>
+            </div>
+            <div class="bio-box">
+              <div class="bio-icon">
+                <div class="date">
+                  <span class="day"><span data-trans="dates.2014/09.day"></span></span><span class="per">/</span><span class="month"><span data-trans="dates.2014/09.month"></span></span>
+                </div>
+              </div>
+              <div class="bio-desc">
+                <span data-trans="dates.2014/09.desc"></span>
+              </div>
+              <div class="cl"></div>
+            </div>
+            <div class="bio-box">
+              <div class="bio-icon">
+                <div class="date">
+                  <span class="day"><span data-trans="dates.2014/010.day"></span></span><span class="per">/</span><span class="month"><span data-trans="dates.2014/010.month"></span></span>
+                </div>
+              </div>
+              <div class="bio-desc">
+                <span data-trans="dates.2014/010.desc"></span>
+              </div>
+              <div class="cl"></div>
+            </div>
             <div class="bio-box">
               <div class="bio-icon">
                 <div class="date">
@@ -624,12 +662,7 @@
             <span>"(...)Altistin Joanna Bortel verlieh dem Werk Bachs</span><br/>
             <span>mit ihrem dunklen Stimmtimbre eine besondere Note."</span><br/>
             <span class="author">ZEITUNG ERKELENZ</span><br/>
-          </div>
-          <div class="quote align-right">
-            <span>"Asia bardzo fajnie śpiewa</span><br/>
-            <span>i ma fajnego szwagra co mi wozi gruz"</span><br/>
-            <span class="author">Adam Mazik</span><br/>
-          </div>          
+          </div>        
         </div>
       </section>
 
@@ -732,7 +765,7 @@
                 <img src="gfx/phone.png" alt="">
               </div>
               <div class="bio-desc">
-                <span class="light">+48</span> 510 364 576
+                <span class="light">+48</span> 692 487 521
               </div>
               <div class="cl"></div>
             </div>
@@ -750,12 +783,12 @@
           </div>
           <div class="cl"></div>
           <div class="contact">
-            <form action="index_submit" method="get" accept-charset="utf-8">
-              <div><input type="text" name="" value="" placeholder="Your name"></div>
-              <div><input type="email" name="" value="" placeholder="Your email"></div>
+            <form action="index_submit" method="get" accept-charset="utf-8" id="contact_form">
+              <div><input type="text" name="name" id="name" value="" placeholder="Your name"></div>
+              <div><input type="email" name="email" id="email" value="" placeholder="Your email"></div>
               <div>
-                <textarea name=""></textarea>
-                <input type="submit" name="" value="SEND">
+                <textarea name="text" name="" id="textarea"></textarea>
+                <input type="submit" name="" value="SEND" id="send_button">
               </div>
             </form>   
           </div>
