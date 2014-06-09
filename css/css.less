@@ -544,7 +544,7 @@ section{
 				padding: 5px 10px;
 				margin-left: 47px;
 				.box-sizing();
-				background-color: rgba(255,255,255,.3);
+				background-color: rgba(255,255,255,.8);
 				color: @text;
 				font-size: 3.0rem;
 				font-weight: 300;
@@ -666,6 +666,18 @@ footer{
 				width: auto;
 				font-weight: 300;
 			}
+			a{
+				display: inline-block;
+				color:rgba(255,255,255,.7);
+				.transition();
+				padding-bottom: 1px;
+				border-bottom: 1px dotted rgba(255,255,255,.2);
+				text-decoration: none;
+				&:hover{
+					color:rgba(255,255,255,.9);
+					border-bottom: 1px dotted rgba(255,255,255,.6);
+				}
+			}
 		}
 	}
 }
@@ -723,6 +735,10 @@ footer{
 	}
 	.wrapper{
 		position: absolute;
+		opacity: 0;
+		&.active-cat{
+			opacity: 1.0;
+		}
 	}
 }
 

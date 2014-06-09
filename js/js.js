@@ -1,4 +1,3 @@
-	      
 function load_trans(){
   $('[data-trans]').each(function() {
     $(this).html($.t($(this).data('trans')));
@@ -215,7 +214,6 @@ var oldSrcoll;
   $('.photo-cat').click(function(event) {
     var active = $('.active-cat');
     active.removeClass('active-cat');
-    active.fadeOut('fast');
     x=0;
     rate=0;
     $(".direction").each(function(index, el) {
@@ -223,7 +221,7 @@ var oldSrcoll;
       clearInterval( scroller );
     });
     $('.photo-box').animate({"left":"0px"});
-    $("#"+$(this).data("rel")).addClass('active-cat').fadeIn('fast');
+    $("#"+$(this).data("rel")).addClass('active-cat');
   });
 
   $("#contact_form").submit(function(){
