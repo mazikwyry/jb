@@ -37,6 +37,11 @@
 		} 
 	},
 	"dates":{
+		"2015/01":{
+			"day": "25",
+			"month": "01",
+			"desc": "Concert “Muzyczna Mozaika”<br>X. Montsalvatge - Cinco Canciones Negras<br>Joanna Bortel - mezzosopran<br>Mateusz Lasatowicz - piano<br>in Katowice"
+		},
 		"2014/08":{
 			"day": "18",
 			"month": "05",
