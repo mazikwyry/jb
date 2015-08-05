@@ -37,6 +37,11 @@
 		} 
 	},
 	"dates":{
+		"2015/06":{
+			"day": "03",
+			"month": "10",
+			"desc": "Symphony No. 9 L.v Beethoven<br>Orchester Zabrzanska<br>Ludwig van Beethoven Music Festival<br>in Głogówek"
+		},
 		"2015/04":{
 			"day": "26",
 			"month": "09",
@@ -45,7 +50,7 @@
 		"2015/03":{
 			"day": "07",
 			"month": "08",
-			"desc": "J.S.Bach Cantata's :<br>BWV 72 - 'Alles nur nach Gottes Willen'<br>BWV 87 - 'Bisher habt ihr nichts gebeten in meinem Namen'<br>BWV 148 - 'Bringet dem Herrn Ehre seines Namens'<br>in Zaborowo"
+			"desc": "J.S.Bach Cantata's :<br>BWV 72 - 'Alles nur nach Gottes Willen'<br>BWV 87 - 'Bisher habt ihr nichts gebeten in meinem Namen'<br>BWV 148 - 'Bringet dem Herrn Ehre seines Namens'<br>in Leszno"
 		},
 		"2015/05":{
 			"day": "04",
