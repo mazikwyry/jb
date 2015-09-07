@@ -43,9 +43,9 @@
 			"desc": "Symphony No. 9 L.v Beethoven<br>Orchester Zabrzanska<br>Ludwig van Beethoven Music Festival<br>in Głogówek"
 		},
 		"2015/04":{
-			"day": "26",
+			"day": "27",
 			"month": "09",
-			"desc": "F. Chopin - Polish Songs<br>Ludwig van Beethoven Music Festival<br>in Głogówek"
+			"desc": "'Muzyka w Starych Kościołach Miechowic'<br>Kościół Ewangelicki<br>Bytom, godz. 16:00."
 		},
 		"2015/03":{
 			"day": "07",
@@ -321,5 +321,8 @@
 	"photos":{
 		"personal": "Prywatne",
 		"performance": "Scena"
+	},
+	"press":{
+		"article": "cały artykuł"
 	}
 }
