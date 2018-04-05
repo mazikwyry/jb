@@ -13,7 +13,7 @@
 	"home": {
 		"mezosoprano":"Mezzosopran"
 	},
-	
+
 	"bio": {
 		"box1": {
 			"icon": "Hochschule für Musik in Breslau",
@@ -21,7 +21,7 @@
 		},
 		"box2": {
 			"icon": "Die Zusammenarbeit mit namhaften Dirigenten",
-			"desc": "Sie arbeitete mit vielen hervorragenden Dirigenten, wie Jan Łukaszewski, Bogusław Dawidow, Tadeusz Zathey, Helena Tomaszek-Plewa, Alan Urbanek, Małgorzata Sapiecha-Muzioł, Marta Kierska – Witczak, Hubert Prochota, Marzena Diakun, Stefano Bevier, Silvano Frontalini, Kazimierz Kord, Adam Klocek und Dariusz Tabisz zusammen. <br/><br/>"
+			"desc": "Sie arbeitete mit vielen hervorragenden Dirigenten, Sylvain Cambreling, Sir Roger Norrington, Joshard Daus, Ion Marin, Sławomir Chrzanowski, Jan Łukaszewski, Bogusław Dawidow, Tadeusz Zathey, Helena Tomaszek-Plewa, Alan Urbanek, Małgorzata Sapiecha-Muzioł, Marta Kierska – Witczak, Hubert Prochota, Marzena Diakun, Stefano Bevier, Silvano Frontalini, Kazimierz Kord, Adam Klocek und Dariusz Tabisz zusammen. <br/><br/>"
 		},
 		"box3": {
 			"icon": "Die Teilnahme an Kursen Gesangs-und Interpretations",
@@ -33,10 +33,97 @@
 		},
 		"box5": {
 			"icon": "Umfangreiche Bühne expirience",
-			"desc": "Erste Bühnenerfahrungen sammelte sie bereits während des Studiums, als sie als Amastre in Händels Xerxes, als Dorisbe in Scarlattis Tolomeo e Alessandro, als die Dritte Dame in Mozarts Zauberflöte, als Maddalena in Verdis Rigoletto, als Plociuchowa (Schwatzweib) in Hollands Agatka, als Ježibaba in Dvořáks Rusalka, als Olga in Tschaikowkis Eugen Onegin und als Orlowski in Strauß’ Fledermaus zu hören war. Ihr Repertoire erweitern Oratorien, Kantaten und Lieder. Trotz ihres jungen Alters nahm sie an vielen Konzerten und bedeutenden Musikfestivals teil, u.a. an „Der großen Giuseppe Verdi Nacht” (Philharmonie München und Theater Neue Flora Hamburg) und an dem 22. Internationalen Festival der Sakralmusik „Gaude Mater” in Częstochowa (Polen)."
-		} 
+			"desc": "Trotz ihres jungen Alters nahm sie an vielen Konzerten und bedeutenden Musikfestivals teil, u.a. an „Der großen Giuseppe Verdi Nacht” (Philharmonie München und Theater Neue Flora Hamburg), am 13. Moritz-Brosig-Orgel- und Kammermusikfestival in Paczków, Festival „Leszno Barok Plus“ in Leszno, am 23. Schlesischen Festival zu Ehren von Ludwig van Beethoven in Głogówek teil und Laeiszhalle in Hamburg. "
+		}
 	},
 	"dates":{
+		"2018/07": {
+			"day": "01",
+			"month": "06",
+			"desc": "Concert: Donnerstag aus Licht<br>Dritter Akt Michaels Heimkehr - K. Stockhausen <br>Conductor: Péter Eötvös <br>/Project with ECA/"
+		},
+		"2018/06": {
+			"day": "15",
+			"month": "05",
+			"desc": "Concert: Sacred Music (more information soon)<br>Joanna Bortel - alt solo<br>Magdalena Maier - violin<br>Łukasz Kurpas - orgel<br>in Wodzisław Śląski - Kokoszyce"
+		},
+		"2018/05": {
+			"day": "05",
+			"month": "04",
+			"desc": "Concert: Sacred Music<br>Joanna Bortel - alt solo<br>Magdalena Maier - violin<br>Łukasz Kurpas - orgel<br>in Wodzisław Śląski - Kokoszyce"
+		},
+		"2018/04": {
+			"day": "25",
+			"month": "03",
+			"desc": "Concert: Stabat Mater G.B.Pergolesi<br>Joanna Bortel - alt solo<br>Natalia Stawicka - sopran solo<br>Monika Kruk - piano<br>In Kietrz "
+		},
+		"2018/03": {
+			"day": "24",
+			"month": "03",
+			"desc": "Concert: Stabat Mater G.B.Pergolesi<br>Joanna Bortel - alt solo<br>Natalia Stawicka - sopran solo<br>Monika Kruk - piano<br>In Głubczyce "
+		},
+		"2018/02": {
+			"day": "14",
+			"month": "03",
+			"desc": "Concert: Trois Chansons de Charles d'Orleans C.Debussy<br>Joanna Bortel - mezzosoprano<br>Conductor - Sylvain Cambreling<br>Synagoge in Görlitz"
+		},
+		"2018/01": {
+			"day": "06",
+			"month": "02",
+			"desc": "Concert: Sacred Music<br>Joanna Bortel - alt solo<br>Magdalena Maier - violin<br>Łukasz Kurpas - orgel<br>in Wodzisław Śląski - Kokoszyce"
+		},
+
+		"2017/04": {
+			"day": "01",
+			"month": "12",
+			"desc": "Concert: Stabat Mater K.Szymanowski<br>Mass No. 6 in E flat major D 950 F.Schubert<br>NDR Radio Philharmonic Hannover<br>/Project with ECA/"
+		},
+		"2017/03": {
+			"day": "12",
+			"month": "11",
+			"desc": "Concert: Requiem A.Dvořák  op.89<br>Laeiszhalle in Hamburg<br>/Project with ECA/"
+		},
+		"2017/02": {
+			"day": "25",
+			"month": "10",
+			"desc": "Concert:Volkslieder – W. Kerschek<br>Joanna Bortel - mezzosoprano<br>Conductor: Joshard Daus<br>in Bautzen, Görlitz, Weißwasser, Hoyerswerda"
+		},
+		"2017/01": {
+			"day": "04",
+			"month": "09",
+			"desc": "Concert:Magnificat - J. S. Bach BWV 243<br>Messe As dur - F. Schubert D 678 (it, lat)<br>Joanna Bortel - alt solo<br>Conductor - Sir Roger Norrington<br>In Laiszhalle - Hamburg"
+		},
+
+		"2016/06":{
+			"day": "25",
+			"month": "04",
+			"desc": "Concert: R.Schumann, G. Bizet, P. Tchaikovsky, W.A.Mozart ...<br>Joanna Bortel - mezzosoprano<br>Agnieszka Porzuczek - piano<br>in Katowice"
+		},
+		"2016/05":{
+			"day": "22",
+			"month": "03",
+			"desc": "\"STABAT MATER\" - G.B.PERGOLESI<br>godz.18:00<br>Monika Piechaczek - sopran<br>Joanna Bortel - mezzosopran<br>Michał Blechinger - organy<br>Kościół Matki Bożej Nieustającej Pomocy, Opole - Nowa Wieś Królewska"
+		},
+		"2016/04":{
+			"day": "20",
+			"month": "03",
+			"desc": "\"STABAT MATER\" - G.B.PERGOLESI<br>godz.18:00<br>Monika Piechaczek - sopran<br>Joanna Bortel - mezzosopran<br>Michał Blechinger - organy<br>Kościół Wniebowzięcia NMP, Opole - Gosławice"
+		},
+		"2016/03":{
+			"day": "20",
+			"month": "03",
+			"desc": "\"STABAT MATER\" - G.B.PERGOLESI<br>godz.15:00<br>Monika Piechaczek - sopran<br>Joanna Bortel - mezzosopran<br>Michał Blechinger - organy<br>Kościół pw. Podwyższenia Krzyża Świętego, Pokój"
+		},
+		"2016/02":{
+			"day": "02",
+			"month": "02",
+			"desc": "Christmas Concert<br>in Wąchock"
+		},
+		"2016/01":{
+			"day": "31",
+			"month": "01",
+			"desc": "Christmas Concert<br>in Wodzisław Śląski"
+		},
 		"2015/06":{
 			"day": "03",
 			"month": "10",
@@ -233,7 +320,7 @@
 		"month": "05",
 		"desc": "X.Montsalvatge – Cinco Canciones Negras (mezzosoprano solo)<br/>Piano: Natalia Figiel<br/>The Karol Lipiński Academy of Music in Wrocław. "
 		},
-		 
+
 		"2011/6":{
 		"day": "26",
 		"month": "05",
@@ -323,6 +410,8 @@
 		"performance": "Bühnenfotos"
 	},
 	"press":{
-		"article": "ganzen artikel"
+		"article": "ganzen artikel",
+		"a1": "Absolut großartiger und verdienter Applaus für Frau Joanna Bortel, einer jungen, aber bereits sehr erfahrenen Künstlerin, die phänomenal mit dynamischen Schatten operiert und dabei bestens mit dem Orchester musiziert. Frau Bortel verfügt über einen Mezzosopran mit wunderschöner Farbe und singt mit gleichmäßigem Klang und mit penibler Perfektion zwischen den Registerwechseln. Obwohl ihre Stimme nicht zu den großen gehört, ist sie tragend und verfügt über ein deutliches und starkes Durchmesser, was im Falle der Bach-Kantaten nicht ohne Bedeutung ist. Noch einmal – ein Riesenapplaus für Frau Bortel!",
+		"a2": "Frau Joanna Bortel ist eine der talentiertesten Sängerin, mit denen ich das Vergnügen hatte, zusammenzuarbeiten. Sie hat eine wunderschöne Stimme mit samtig warmer Farbe. Ihre präzise Gesangstechnik und die breite Stimmenpalette ermöglichen es ihr, mit Mezzosopran- und Altstimme exzellent zu singen. Die enorme Musikalität, Professionalität, Leidenschaft sowie hervorragende Bühnenpräsenz und schauspielerisches Talent ermöglichen es ihr, sich sowohl der Kammer-Oratorium-Musik, als auch Opernrollen wie Ulrich in Un Ballo in Maschera und Olga in Eugen Onegin zu widmen.<br>Öffentliche Auftritte dieser jungen Künstlerin begeistern jedes Mal das Publikum mit enormer künstlerischer Sensibilität, Spannungsaufbau im Rahmen eines Werks oder mit wunderschöner Stimme.<br>Frau Joanna Bortel verfügt über alle notwendigen Fähigkeiten, um eine exzellente und geschätzte Künstlerin zu werden, die ich, was ich mir sehr erhoffe, in besten Opernhäusern der Welt werde bewundern dürfen."
 	}
 }

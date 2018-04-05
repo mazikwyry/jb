@@ -214,6 +214,7 @@ var oldSrcoll;
   $('.photo-cat').click(function(event) {
     var active = $('.active-cat');
     active.removeClass('active-cat');
+    $('.photo-cat').removeClass('photo-cat--active');
     x=0;
     rate=0;
     $(".direction").each(function(index, el) {
@@ -221,7 +222,8 @@ var oldSrcoll;
       clearInterval( scroller );
     });
     $('.photo-box').animate({"left":"0px"});
-    $("#"+$(this).data("rel")).addClass('active-cat');
+    $("#" + $(this).data("rel")).addClass('active-cat');
+    $(this).addClass('photo-cat--active');
   });
 
   $("#contact_form").submit(function(){

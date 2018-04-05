@@ -13,7 +13,7 @@
 	"home": {
 		"mezosoprano":"mezzosopran"
 	},
-	
+
 	"bio": {
 		"box1": {
 			"icon": "Akademia Muzyczna we Wrocławiu",
@@ -21,7 +21,7 @@
 		},
 		"box2": {
 			"icon": "Współpraca z wybitnymi dyrygentami",
-			"desc": "Współpracowała z wieloma wybitnymi dyrygentami takimi jak: Jan Łukaszewski, Bogusław Dawidow, Tadeusz Zathey, Helena Tomaszek-Plewa, Alan Urbanek, Małgorzata Sapiecha-Muzioł, Marta Kierska – Witczak, Hubert Prochota, Marzena Diakun, Stefano Bevier, Silvano Frontalini, Kazimierz Kord, Adam Klocek oraz Dariusz Tabisz. <br/><br/>"
+			"desc": "Współpracowała z wieloma wybitnymi dyrygentami takimi jak: Sylvain Cambreling, Sir Roger Norrington, Joshard Daus, Ion Marin, Sławomir Chrzanowski, Jan Łukaszewski, Bogusław Dawidow, Tadeusz Zathey, Helena Tomaszek-Plewa, Alan Urbanek, Małgorzata Sapiecha-Muzioł, Marta Kierska – Witczak, Hubert Prochota, Marzena Diakun, Stefano Bevier, Silvano Frontalini, Kazimierz Kord, Adam Klocek und Dariusz Tabisz. <br/><br/>"
 		},
 		"box3": {
 			"icon": "Uczestnictwo w kursach wokalnych i interpretacyjnych",
@@ -33,10 +33,99 @@
 		},
 		"box5": {
 			"icon": "Bogate doświadczenie sceniczne",
-			"desc": "Doświadczenie sceniczne zdobywała już w trakcie studiów występując w spektaklach operowych: Xerxes G.F.Haendla (AMASTRE), Tolomeo et Alessandro D.Scarlattiego (DORISBE), Czarodziejski Flet W. A.Mozarta (III DAMA), Rigolleto G.Verdiego (MADDALENA), Agatka J.D.Hollanda (PLOCIUCHOWA), Rusałka A.Dvoraka (JEŽIBABA), Eugeniusz Oniegin P.Czajkowskiego (OLGA), Zemsta Nietoperza J.Strauss (ORLOFSKI). Ponadto w swoim repertuarze posiada wiele dzieł oratoryjnych, kantatowych i pieśniarskich. Pomimo młodego wieku brała udział w wielu koncertach oraz ważnych Festiwalach Muzycznych m.in. „Die große Giuseppe Verdi Nacht” w Filharmonii w Monachium i Theater Neue Flora w Hamburgu oraz w XXII Międzynarodowym Festiwalu Muzyki Sakralnej Gaude Mater w Częstochowie (Polska)."
-		} 
+			"desc": "Doświadczenie sceniczne zdobywała już w trakcie studiów występując w spektaklach operowych: Xerxes G.F.Haendla (AMASTRE), Tolomeo et Aleksandro D.Scarlattiego (DORISBE), Czarodziejski Flet W. A.Mozarta (III DAMA), Rigolleto G.Verdiego (MADDALENA), Agatka J.D.Hollanda (PLOCIUCHOWA), Rusałka A.Dvoraka (JEŽIBABA), Eugeniusz Oniegin P.Czajkowskiego (OLGA), Zemsta Nietoperza J.Strauss (ORLOFSKI). Ponadto w swoim repertuarze posiada wiele dzieł oratoryjnych, kantatowych i pieśniarskich.Pomimo młodego wieku brała udział w wielu koncertach oraz ważnych Festiwalach Muzycznych m.in. „Die große Giuseppe Verdi Nacht” w Filharmonii w Monachium i Theater Neue Flora w Hamburgu, w XXII Międzynarodowym Festiwalu Muzyki Sakralnej „Gaude Mater” w Częstochowie, XIII Paczkowskim Festiwalu Muzyki Organowej i Kameralnej im. Moritza Brosiga, Festiwalu Leszno Barok Plus w Lesznie oraz 23. Śląskim Festiwalu im. Ludwiga van Beethovena w Głogówku a także koncertując w hamburgskiej Laeiszhalle."
+		}
 	},
 	"dates":{
+		"2018/07": {
+			"day": "01",
+			"month": "06",
+			"desc": "Concert: Donnerstag aus Licht<br>Dritter Akt Michaels Heimkehr - K. Stockhausen <br>Conductor: Péter Eötvös <br>/Project with ECA/"
+		},
+		"2018/06": {
+			"day": "15",
+			"month": "05",
+			"desc": "Concert: Sacred Music (more information soon)<br>Joanna Bortel - alt solo<br>Magdalena Maier - violin<br>Łukasz Kurpas - orgel<br>in Wodzisław Śląski - Kokoszyce"
+		},
+		"2018/05": {
+			"day": "05",
+			"month": "04",
+			"desc": "Concert: Sacred Music<br>Joanna Bortel - alt solo<br>Magdalena Maier - violin<br>Łukasz Kurpas - orgel<br>in Wodzisław Śląski - Kokoszyce"
+		},
+		"2018/04": {
+			"day": "25",
+			"month": "03",
+			"desc": "Concert: Stabat Mater G.B.Pergolesi<br>Joanna Bortel - alt solo<br>Natalia Stawicka - sopran solo<br>Monika Kruk - piano<br>In Kietrz "
+		},
+		"2018/03": {
+			"day": "24",
+			"month": "03",
+			"desc": "Concert: Stabat Mater G.B.Pergolesi<br>Joanna Bortel - alt solo<br>Natalia Stawicka - sopran solo<br>Monika Kruk - piano<br>In Głubczyce "
+		},
+		"2018/02": {
+			"day": "14",
+			"month": "03",
+			"desc": "Concert: Trois Chansons de Charles d'Orleans C.Debussy<br>Joanna Bortel - mezzosoprano<br>Conductor - Sylvain Cambreling<br>Synagoge in Görlitz"
+		},
+		"2018/01": {
+			"day": "06",
+			"month": "02",
+			"desc": "Concert: Sacred Music<br>Joanna Bortel - alt solo<br>Magdalena Maier - violin<br>Łukasz Kurpas - orgel<br>in Wodzisław Śląski - Kokoszyce"
+		},
+
+		"2017/04": {
+			"day": "01",
+			"month": "12",
+			"desc": "Concert: Stabat Mater K.Szymanowski<br>Mass No. 6 in E flat major D 950 F.Schubert<br>NDR Radio Philharmonic Hannover<br>/Project with ECA/"
+		},
+		"2017/03": {
+			"day": "12",
+			"month": "11",
+			"desc": "Concert: Requiem A.Dvořák  op.89<br>Laeiszhalle in Hamburg<br>/Project with ECA/"
+		},
+		"2017/02": {
+			"day": "25",
+			"month": "10",
+			"desc": "Concert:Volkslieder – W. Kerschek<br>Joanna Bortel - mezzosoprano<br>Conductor: Joshard Daus<br>in Bautzen, Görlitz, Weißwasser, Hoyerswerda"
+		},
+		"2017/01": {
+			"day": "04",
+			"month": "09",
+			"desc": "Concert:Magnificat - J. S. Bach BWV 243<br>Messe As dur - F. Schubert D 678 (it, lat)<br>Joanna Bortel - alt solo<br>Conductor - Sir Roger Norrington<br>In Laiszhalle - Hamburg"
+		},
+
+		"2016/06":{
+			"day": "25",
+			"month": "04",
+			"desc": "Concert: R.Schumann, G. Bizet, P. Tchaikovsky, W.A.Mozart ...<br>Joanna Bortel - mezzosoprano<br>Agnieszka Porzuczek - piano<br>in Katowice"
+		},
+		"2016/05":{
+			"day": "22",
+			"month": "03",
+			"desc": "\"STABAT MATER\" - G.B.PERGOLESI<br>godz.18:00<br>Monika Piechaczek - sopran<br>Joanna Bortel - mezzosopran<br>Michał Blechinger - organy<br>Kościół Matki Bożej Nieustającej Pomocy, Opole - Nowa Wieś Królewska"
+		},
+		"2016/04":{
+			"day": "20",
+			"month": "03",
+			"desc": "\"STABAT MATER\" - G.B.PERGOLESI<br>godz.18:00<br>Monika Piechaczek - sopran<br>Joanna Bortel - mezzosopran<br>Michał Blechinger - organy<br>Kościół Wniebowzięcia NMP, Opole - Gosławice"
+		},
+		"2016/03":{
+			"day": "20",
+			"month": "03",
+			"desc": "\"STABAT MATER\" - G.B.PERGOLESI<br>godz.15:00<br>Monika Piechaczek - sopran<br>Joanna Bortel - mezzosopran<br>Michał Blechinger - organy<br>Kościół pw. Podwyższenia Krzyża Świętego, Pokój"
+		},
+		"2016/02":{
+			"day": "02",
+			"month": "02",
+			"desc": "Christmas Concert<br>in Wąchock"
+		},
+		"2016/01":{
+			"day": "31",
+			"month": "01",
+			"desc": "Christmas Concert<br>in Wodzisław Śląski"
+		},
+
+
 		"2015/06":{
 			"day": "03",
 			"month": "10",
@@ -233,7 +322,7 @@
 		"month": "05",
 		"desc": "X.Montsalvatge – Cinco Canciones Negras (mezzosoprano solo)<br/>Piano: Natalia Figiel<br/>The Karol Lipiński Academy of Music in Wrocław. "
 		},
-		 
+
 		"2011/6":{
 		"day": "26",
 		"month": "05",
@@ -323,6 +412,8 @@
 		"performance": "Scena"
 	},
 	"press":{
-		"article": "cały artykuł"
+		"article": "cały artykuł",
+		"a1": "(...) Absolutnie wielkie i zasłużone brawa należą się Joannie Bortel, artystce młodej, ale najwyraźniej już doświadczonej, która w sposób zjawiskowy operuje cieniami dynamicznymi, świetnie muzykując z orkiestrą. Śpiewaczka dysponuje mezzosopranem o pięknej barwie, śpiewa wyrównanym dźwiękiem z dbałością o przejścia między rejestrami. Choć jej głos nie należy do wielkich, jest nośny, posiada wyrazistą i mocną średnicę, co w przypadku kantat Bacha nie pozostaje bez znaczenia. Raz jeszcze - wielkie brawa!",
+		"a2": "Pani Joanna Bortel jest jedną z najbardziej utalentowanych śpiewaczek z którą miałam przyjemność pracować. Ma przepiękny głos, o aksamitnej, ciepłej barwie. Jej precyzyjna technika wokalna oraz szeroka skala głosu umożliwia jej śpiewanie partii zarówno mezzosopranowych, jak i altowych.  Ogromna muzykalność, profesjonalizm, pasja oraz znakomita prezencja sceniczna i talent aktorski pozwalają jej na wykonywanie zarówno muzyki kameralno – oratoryjnej jak i wcielanie się w role operowe takie jak Ulryka w Balu Maskowym, czy Olga w Eugeniuszu Onieginie.<br>Występy publiczne tej młodej artystki wzbudzają za każdym razem duże uznanie publiczności swoją olbrzymią wrażliwością artystyczną, sposobem budowania napięcia w utworze, czy wreszcie- pięknem głosu artystki.<br>Pani Joanna Bortel ma wszystkie potrzebne atuty do tego, aby stać się znakomitą, i docenianą artystką, którą mam nadzieję będę mogla podziwiać na najlepszych scenach operowych świata."
 	}
 }
