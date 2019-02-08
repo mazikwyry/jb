@@ -1,6 +1,6 @@
 function load_trans(){
   $('[data-trans]').each(function() {
-    $(this).html($.t($(this).data('trans')));
+    $(this).html(i18next.t($(this).data('trans')));
   });
 }
 
@@ -98,13 +98,6 @@ function enable_scroll() {
     window.onmousewheel = document.onmousewheel = document.onkeydown = null;
 }
 
-$.i18n.init({
-  lng: 'en',
-  debug: true
-}, function() {
-  load_trans();
-});
-
 var x, y, rate, maxspeed, backdrop;
 
 function moveBackdrop(){
@@ -116,6 +109,15 @@ function moveBackdrop(){
     backdrop.css('left',newpos);
 }
 
+i18next
+  .use(window.i18nextXHRBackend)
+  .init({
+    lng: 'en',
+    loadPath: 'https://raw.githubusercontent.com/mazikwyry/jb/master/locales/{{lng}}/translation.json',
+  }, function() {
+    load_trans();
+  });
+
 /*--------------- DOCUMENT READY --------------*/
 var oldSrcoll;
 
@@ -124,7 +126,7 @@ var oldSrcoll;
   oldSrcoll = $(window).scrollTop();
 
   $("[data-lang]").click(function(event) {
-    i18n.setLng($(this).data('lang'), function(t) {
+    i18next.changeLanguage($(this).data('lang'), function(t) {
       load_trans();
      });
     $("[data-lang]").removeClass('active-lang');
@@ -270,6 +272,8 @@ var oldSrcoll;
 
   })
 
+  // LOAD DATES
+
   $.ajax({
     type: "GET",
     url: "https://raw.githubusercontent.com/mazikwyry/jb/master/locales/en/translation.json"
@@ -277,8 +281,7 @@ var oldSrcoll;
     var json = JSON.parse(result);
     var grouped = group(json.dates);
 
-    Object.keys(grouped).map(function(year) {
-
+    Object.keys(grouped).reverse().map(function(year) {
       var id = parseInt(year) > 2012 ? "#left-dates" : "#right-dates";
 
       $(id).append(`<h2>${year}</h2>`);
@@ -287,6 +290,8 @@ var oldSrcoll;
         $(id).append('<div class="bio-box"><div class="bio-icon"><div class="date"><span class="day"><span data-trans="dates.'+date+'.day"></span></span><span class="per">/</span><span class="month"><span data-trans="dates.'+date+'.month"></span></span></div></div><div class="bio-desc"><span data-trans="dates.'+date+'.desc"></span></div><div class="cl"></div></div>');
       });
     });
+
+    load_trans();
   });
 
   var group = function(dates) {
