@@ -4,7 +4,7 @@ function load_trans(){
   });
 }
 
-function listenWidth(){     
+function listenWidth(){
   $("section").css("min-height", $(window).height()+"px");
 }
 
@@ -31,7 +31,7 @@ function parallaxScroll(){
         disable_scroll();
         var minus = 0;
         var plus = 0;
-        if(scrolled < oldSrcoll){ 
+        if(scrolled < oldSrcoll){
           minus = 1;
           plus = parseInt(prev.css("height"))-section_height;
         }
@@ -42,7 +42,7 @@ function parallaxScroll(){
           scrolling = false;
         });
         setTimeout(function(){enable_scroll();},400);
-        
+
       }
 
       if((scrolled > (current_pos-100)) && (scrolled < (current_pos+current_height-section_height))){
@@ -67,7 +67,7 @@ function preventDefault(e) {
   e = e || window.event;
   if (e.preventDefault)
       e.preventDefault();
-  e.returnValue = false;  
+  e.returnValue = false;
 }
 
 function keydown(e) {
@@ -95,7 +95,7 @@ function enable_scroll() {
     if (window.removeEventListener) {
         window.removeEventListener('DOMMouseScroll', wheel, false);
     }
-    window.onmousewheel = document.onmousewheel = document.onkeydown = null;  
+    window.onmousewheel = document.onmousewheel = document.onkeydown = null;
 }
 
 $.i18n.init({
@@ -175,7 +175,7 @@ var oldSrcoll;
 
   listenWidth();
   $(document).load($(window).bind("resize", listenWidth));
-  $(window).bind('scroll',function(e){ 
+  $(window).bind('scroll',function(e){
       parallaxScroll();
   });
 
@@ -209,7 +209,7 @@ var oldSrcoll;
           var scroller = $(this).data('scroller');
           clearInterval( scroller );
       }
-  );   
+  );
 
   $('.photo-cat').click(function(event) {
     var active = $('.active-cat');
@@ -234,8 +234,8 @@ var oldSrcoll;
       $('#textarea').css("border-color","red");
       ok=0;
     }
-    
-    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;  
+
+    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
     if(emailPattern.test($('#email').val())==false)
     {
@@ -245,7 +245,7 @@ var oldSrcoll;
       ok=0;
     }
 
-    
+
     if(ok==1){
       $.ajax({
         type: "POST",
@@ -267,8 +267,45 @@ var oldSrcoll;
     }
 
     return false;
-    
+
   })
 
+  $.ajax({
+    type: "GET",
+    url: "https://raw.githubusercontent.com/mazikwyry/jb/master/locales/en/translation.json"
+  }).done(function(result){
+    var json = JSON.parse(result);
+    var grouped = group(json.dates);
+
+    Object.keys(grouped).map(function(year) {
+
+      var id = parseInt(year) > 2012 ? "#left-dates" : "#right-dates";
+
+      $(id).append(`<h2>${year}</h2>`);
+
+      grouped[year].map(function(date){
+        $(id).append('<div class="bio-box"><div class="bio-icon"><div class="date"><span class="day"><span data-trans="dates.'+date+'.day"></span></span><span class="per">/</span><span class="month"><span data-trans="dates.'+date+'.month"></span></span></div></div><div class="bio-desc"><span data-trans="dates.'+date+'.desc"></span></div><div class="cl"></div></div>');
+      });
+    });
+  });
+
+  var group = function(dates) {
+    var grouped = {};
+
+    Object.keys(dates).map(function(date) {
+      var year = date.substr(0,4);
+
+      if(Object.keys(grouped).includes(year)) {
+        grouped[year].push(date);
+      } else {
+        grouped[year] = [date];
+      }
+    });
+
+    return grouped;
+  }
+
 });
+
+
 
