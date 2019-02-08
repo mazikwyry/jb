@@ -35,6 +35,41 @@
 		}
 	},
 	"dates": {
+    "2018/15": {
+			"day": "30",
+			"month": "12",
+			"desc": "Die grosse Giuseppe Verdi <br>Die Operngala in Schweiz<br>/Azucena, Urlica, Maddalena/<br>Conductor: Marcin Wolniewski<br>in Thun (KK Thun)"
+		},
+    "2018/14": {
+			"day": "29",
+			"month": "12",
+			"desc": "Die grosse Giuseppe Verdi <br>Die Operngala in Schweiz<br>/Azucena, Urlica, Maddalena/<br>Conductor: Marcin Wolniewski<br>in Basel (Musical Theater)"
+		},
+    "2018/13": {
+			"day": "28",
+			"month": "12",
+			"desc": "Die grosse Giuseppe Verdi <br>Die Operngala in Schweiz<br>/Azucena, Urlica, Maddalena/<br>Conductor: Marcin Wolniewski<br>in Zűrich (Tonhalle Maag)"
+		},
+    "2018/12": {
+			"day": "27",
+			"month": "12",
+			"desc": "Die grosse Giuseppe Verdi <br>Die Operngala in Schweiz<br>/Azucena, Urlica, Maddalena/<br>Conductor: Marcin Wolniewski<br>in Bern (Theatersaal National)"
+		},
+    "2018/11": {
+			"day": "26",
+			"month": "12",
+			"desc": "Die grosse Giuseppe Verdi <br>Die Operngala in Schweiz<br>/Azucena, Urlica, Maddalena/<br>Conductor: Marcin Wolniewski<br>in St.Gallen (Tonhalle)"
+		},
+    "2018/10": {
+			"day": "24",
+			"month": "11",
+			"desc": "Ein deutsches Requiem - J.Brahms<br>/project with ECA/"
+		},
+    "2018/09": {
+			"day": "03",
+			"month": "09",
+			"desc": "Johannes-Passion – J.S.Bach<br>Meetingpoint Music Messiaen<br>in Görlitz"
+		},
 		"2018/08": {
 			"day": "30",
 			"month": "06",
