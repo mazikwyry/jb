@@ -35,6 +35,11 @@
 		}
 	},
 	"dates": {
+		"2019/03": {
+			"day": "03",
+			"month": "06",
+			"desc": "Inny koncert<br> Arena<br> inne info"
+		},
 		"2019/02": {
 			"day": "02",
 			"month": "06",
