@@ -110,10 +110,14 @@ function moveBackdrop(){
 }
 
 i18next
-  .use(window.i18nextXHRBackend)
+  .use(i18nextXHRBackend)
   .init({
     lng: 'en',
-    loadPath: 'https://raw.githubusercontent.com/mazikwyry/jb/master/locales/{{lng}}/translation.json',
+    fallbackLng: 'en',
+    backend: {
+      loadPath: 'https://raw.githubusercontent.com/mazikwyry/jb/master/locales/{{lng}}/translation.json',
+      crossDomain: true
+    }
   }, function() {
     load_trans();
   });
@@ -282,7 +286,7 @@ var oldSrcoll;
     var grouped = group(json.dates);
 
     Object.keys(grouped).reverse().map(function(year) {
-      var id = parseInt(year) > 2012 ? "#left-dates" : "#right-dates";
+      var id = parseInt(year) > 2013 ? "#left-dates" : "#right-dates";
 
       $(id).append(`<h2>${year}</h2>`);
 
