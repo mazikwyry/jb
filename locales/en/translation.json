@@ -35,7 +35,17 @@
 		}
 	},
 	"dates": {
-		   "2018/16": {
+		"2019/2": {
+			"day": "02",
+			"month": "06",
+			"desc": "Inny koncert<br> Arena<br> inne info"
+		},
+		"2019/1": {
+			"day": "01",
+			"month": "01",
+			"desc": "Nowy koncert<br> Arena<br> inne info"
+		},
+		"2018/16": {
 			"day": "31",
 			"month": "12",
 			"desc": "Super koncert <br> Tauron Aren <br> pod batutą Józka"
